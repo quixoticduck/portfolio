@@ -1,0 +1,28 @@
+$font-stack: Cabin, Lobster, lato, Helvetica, sans-serif;
+
+$color-1: #2F7090;
+$color-2: #97AFBA;
+$color-3: #7EA7BA;
+$color-4: #085072;
+$color-5: #053D58;
+
+@mixin border-radius($radius) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+body 
+{font: 100% $font-stack;
+color: $color-1 }
+
+box { 
+	@include border-radius (10px); 
+	margin: auto;
+	background-color: $color-4;
+}
+ 
+h1 {color:$color-3}
+h2 {color:$color-1}
+h3 {color:$color-5}

@@ -1,0 +1,22 @@
+body {
+  font: 100% Cabin, Lobster, lato, Helvetica, sans-serif;
+  color: #2F7090; }
+
+box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #085072; }
+
+h1 {
+  color: #7EA7BA; }
+
+h2 {
+  color: #2F7090; }
+
+h3 {
+  color: #053D58; }
+
+/*# sourceMappingURL=myscss.css.map */
