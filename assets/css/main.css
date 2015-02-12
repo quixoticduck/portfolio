@@ -19,4 +19,13 @@ h2 {
 h3 {
   color: #053D58; }
 
-/*# sourceMappingURL=myscss.css.map */
+.pencils {
+  width: 700px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s; }
+  .pencils:hover {
+    width: 500px; }
+
+/*# sourceMappingURL=main.css.map */
