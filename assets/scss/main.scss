@@ -15,7 +15,7 @@ $color-5: #053D58;
 	border-radius: $radius;
 }
 
-@mixin transition($transition:0.3s) {
+@mixin transition($transition:0.4s) {
 	-webkit-transition: $transition;
 	-moz-transition: $transition;
 	-ms-transition: $transition;
