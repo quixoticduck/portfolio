@@ -15,7 +15,7 @@
 			"file": "assets/css/main.css",
 			"settings":
 			{
-				"buffer_size": 530,
+				"buffer_size": 584,
 				"line_ending": "Windows"
 			}
 		},
@@ -23,7 +23,7 @@
 			"file": "assets/scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 867,
+				"buffer_size": 967,
 				"line_ending": "Windows"
 			}
 		},
@@ -31,7 +31,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7588,
+				"buffer_size": 7697,
 				"line_ending": "Windows"
 			}
 		}
@@ -136,7 +136,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -145,15 +145,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 530,
+						"buffer_size": 584,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								491,
+								327
 							]
 						],
 						"settings":
@@ -171,7 +171,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -180,15 +180,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 867,
+						"buffer_size": 967,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								425,
-								425
+								888,
+								888
 							]
 						],
 						"settings":
@@ -205,7 +205,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -214,15 +214,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7588,
+						"buffer_size": 7697,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								491,
+								491
 							]
 						],
 						"settings":
@@ -240,7 +240,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

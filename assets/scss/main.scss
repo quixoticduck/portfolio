@@ -22,6 +22,12 @@ $color-5: #053D58;
 	transition: $transition;
 }
 
+@mixin blur ($blur:5px) {
+filter: blur(5px);
+-webkit-filter: blur(5px);
+}
+
+
 body {
 	font: 100% $font-stack;
 	color: $color-1; 
@@ -44,5 +50,6 @@ h3 {color:$color-5}
 
 	&:hover {
 		width: 500px;
+		@include blur (10px);
 	}
 }
