@@ -1,31 +1,68 @@
+/* line 25, ../scss/main.scss */
 body {
   font: 100% Cabin, Lobster, lato, Helvetica, sans-serif;
-  color: #2F7090; }
+  background-image: url("../img/hexellence.png");
+}
 
+/* line 30, ../scss/main.scss */
+.blur {
+  -webkit-filter: blur(10px);
+}
+
+/* line 34, ../scss/main.scss */
 box {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
   margin: auto;
-  background-color: #085072; }
+  background-color: #333333;
+}
 
+/* line 40, ../scss/main.scss */
 h1 {
-  color: #7EA7BA; }
+  color: black;
+  font-family: cabin;
+}
 
+/* line 45, ../scss/main.scss */
 h2 {
-  color: #2F7090; }
+  color: #b5ca15;
+  font-family: lobster;
+}
 
+/* line 46, ../scss/main.scss */
 h3 {
-  color: #053D58; }
+  color: #f40066;
+}
 
+/* line 48, ../scss/main.scss */
 .pencils {
   width: 700px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s; }
-  .pencils:hover {
-    width: 500px; }
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
+}
+/* line 52, ../scss/main.scss */
+.pencils:hover {
+  width: 500px;
+}
 
-/*# sourceMappingURL=main.css.map */
+/* line 57, ../scss/main.scss */
+.textbox {
+  width: 450px;
+  height: 200px;
+  background-color: white;
+  -webkit-filter: opacity(0.3);
+  -webkit-filter: blur(1px);
+  z-index: 0;
+  position: absolute;
+}
+
+/* line 68, ../scss/main.scss */
+.content {
+  padding: 15px;
+  z-index: 10;
+  position: relative;
+}

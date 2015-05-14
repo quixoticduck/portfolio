@@ -2,11 +2,11 @@
 //@import "../../bower_components/foundation/scss/foundation";
 $font-stack: Cabin, Lobster, lato, Helvetica, sans-serif;
 
-$color-1: #2F7090;
-$color-2: #97AFBA;
-$color-3: #7EA7BA;
-$color-4: #085072;
-$color-5: #053D58;
+$color-1: #000000;
+$color-2: #FFFFFF;
+$color-3: #B5CA15;
+$color-4: #333333;
+$color-5: #F40066;
 
 @mixin border-radius($radius) {
 	-webkit-border-radius: $radius;
@@ -15,7 +15,7 @@ $color-5: #053D58;
 	border-radius: $radius;
 }
 
-@mixin transition($transition:0.3s) {
+@mixin transition($transition:0.4s) {
 	-webkit-transition: $transition;
 	-moz-transition: $transition;
 	-ms-transition: $transition;
@@ -24,8 +24,11 @@ $color-5: #053D58;
 
 body {
 	font: 100% $font-stack;
-	color: $color-1; 
-	//-webkit-filter:blur(10px);
+	background-image: url("../img/hexellence.png");
+}
+
+.blur {
+	-webkit-filter:blur(10px);
 }
 
 box { 
@@ -34,8 +37,12 @@ box {
 	background-color: $color-4;
 }
  
-h1 {color:$color-3}
-h2 {color:$color-1}
+h1 {
+	color:$color-1;
+	font-family: cabin;
+}
+
+h2 {color:$color-3; font-family: lobster;}
 h3 {color:$color-5}
 
 .pencils {
@@ -45,4 +52,22 @@ h3 {color:$color-5}
 	&:hover {
 		width: 500px;
 	}
+}
+
+.textbox {
+	width: 450px;
+	height: 200px;
+	background-color: white;
+	-webkit-filter:opacity(0.3);
+	-webkit-filter:blur(1px);
+	z-index: 0;
+	position: absolute;
+
+}
+
+.content {
+	padding:15px;	
+	z-index: 10;
+	position: relative;
+
 }
