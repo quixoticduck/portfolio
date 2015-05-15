@@ -1,0 +1,14 @@
+navigate to the correct github folder using cd and tab (github tab doesn't work)
+
+then do
+sass --watch assets/scss/main.scss:assets/css/main.css
+
+it will watch the scss file and output it into css automatically. no need to close sublime
+
+
+
+
+hit f7 to see previous commands from that session, or 'up' on a mac in terminal (inc. previous sessions)
+
+
+If 'open command window here' isn't showing as an option then hold shift and try again.
