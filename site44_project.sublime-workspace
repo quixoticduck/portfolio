@@ -4,42 +4,127 @@
 		"selected_items":
 		[
 			[
-				"font",
-				"font-size"
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"co",
+				"colorLight"
+			],
+			[
+				"colo",
+				"colorBorder"
+			],
+			[
+				"color",
+				"colorMain"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"colorl",
+				"colorMainLight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"colorM",
+				"colorMainLight"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"colorm",
+				"colorMainLight"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"color2nd",
+				"color2ndLight"
+			],
+			[
+				"c",
+				"colorLight"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "assets/css/main.css",
-			"settings":
-			{
-				"buffer_size": 584,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "assets/scss/main.scss",
 			"settings":
 			{
-				"buffer_size": 967,
-				"line_ending": "Windows"
+				"buffer_size": 13139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footerTest.html",
+			"settings":
+			{
+				"buffer_size": 3844,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 7697,
-				"line_ending": "Windows"
+				"buffer_size": 8644,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "foundationExample.html",
+			"settings":
+			{
+				"buffer_size": 7831,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
-		"height": 380.0,
+		"height": 392.0,
+		"last_filter": "ins",
 		"selected_items":
 		[
 			[
@@ -49,32 +134,16 @@
 			[
 				"inst",
 				"Package Control: Install Package"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"Snippet: ",
-				"Snippet: Comment"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"INST",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
-		"height": 146.0,
+		"height": 126.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -88,27 +157,94 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Clara/Documents/GitHub/claraalder.site44.com",
-		"/C/Users/Clara/Documents/GitHub/claraalder.site44.com/assets",
-		"/C/Users/Clara/Documents/GitHub/claraalder.site44.com/assets/css",
-		"/C/Users/Clara/Documents/GitHub/claraalder.site44.com/assets/scss"
+		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com",
+		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets",
+		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss"
 	],
 	"file_history":
 	[
-		"/F/F - Downloads/02. Portable Programs/Sublime Text Build 3065 x64/Data/Packages/User/sftp_servers/roundhill-sftp",
-		"/C/Users/Clara/Desktop/roundhill sftp",
-		"/F/F - Downloads/02. Portable Programs/Sublime Text Build 3065 x64/Data/Packages/User/css-myoffblack.sublime-snippet",
-		"/F/F - Downloads/02. Portable Programs/Sublime Text Build 3065 x64/Data/Packages/User/Colours.sublime-settings"
+		"/C/Users/Clara/Dropbox/Webinar outlook reminders/3. Webinar_Reminder_Conduce_am00.ics",
+		"/C/Users/Clara/Dropbox/Webinar outlook reminders/4. Webinar_Reminder_Conduce_pm00.ics",
+		"/C/Users/Clara/GitHub/Roundhill/html/index.html",
+		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/indexBlurJS.html",
+		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/simpledemo.html",
+		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/css/main.css",
+		"/C/Users/Clara/GitHub/liz-site/craft/app/resources/js/compressed/craft.js",
+		"/C/Users/Clara/GitHub/liz-site/craft/app/Info.php",
+		"/C/Users/Clara/GitHub/liz-site/craft/app/index.php",
+		"/C/Users/Clara/GitHub/liz-site/craft/app/bootstrap.php",
+		"/C/Users/Clara/GitHub/liz-site/craft/app/Craft.php",
+		"/C/Users/Clara/GitHub/liz-site/craft/templates/_footer.html",
+		"/C/Users/Clara/GitHub/liz-site/craft/templates/_layout.html",
+		"/C/Users/Clara/Dropbox/Webinar outlook reminders/Webinar_Reminder_IDMR_pm.ics",
+		"/C/Users/Clara/Dropbox/Webinar outlook reminders/Webinar_Reminder_IDMR_am.ics",
+		"/C/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/main.scss",
+		"/C/Users/Clara/GitHub/liz-site/craft/templates/index.html",
+		"/C/Users/Clara/GitHub/liz-site/craft/storage/runtime/compiled_templates/c/b/cb84f06d17a3145a5e9bc767291969b0bb6b4faaae234db160d193d0781de598.php",
+		"/C/Users/Clara/GitHub/liz-site/public_html/assets/css/styles.css",
+		"/C/Users/Clara/GitHub/liz-site/index.html",
+		"/C/Users/Clara/GitHub/safety layout",
+		"/C/Users/Clara/Portable Programs/Sublime Text Build 3083 x64/Data/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Clara/Portable Programs/Sublime Text Build 3083 x64/Data/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Clara/GitHub/liz-site/public_html/index.php",
+		"/C/Users/Clara/GitHub/liz-site/public_html/assets/scss/styles.scss",
+		"/C/Users/Clara/GitHub/liz-site/craft/templates/Relationships/index.html",
+		"/C/Users/Clara/Dropbox/Webinar outlook reminders/Webinar_Reminder_Ramco_am00.ics",
+		"/C/Users/Clara/Dropbox/Webinar outlook reminders/Webinar_Reminder_Ramco_pm00.ics",
+		"/C/Users/Clara/Google Drive/00. Work shared w Duck/Working From Home/claraAircraftIT email signature3.html",
+		"/C/Users/Clara/GitHub/liz-site/public_html/assets/scss/Bugfixes",
+		"/C/Users/Clara/GitHub/liz-site/public_html/assets/scss/test.css",
+		"/C/Users/Clara/GitHub/liz-site/dev/testindex.html",
+		"/C/Users/Clara/GitHub/liz-site/craft/templates/testindex.html",
+		"/C/Users/Clara/GitHub/liz-site/dev/index.html",
+		"/C/Users/Clara/GitHub/liz-site/dev/assets/css/main.css",
+		"/C/Users/Clara/Dropbox/Apps/site44/safety backups/claraalder.site44.com - Copy/assets/scss/myscss.scss",
+		"/C/Users/Clara/GitHub/liz-site/public_html/assets/scss/styles.scss.css",
+		"/C/Users/Clara/Dropbox/Apps/site44/safety backups/claraalder.site44.com - Copy/scsstest.html",
+		"/C/Users/Clara/Dropbox/Apps/site44/safety backups/site44(2)/scss/_settings.scss",
+		"/C/Users/Clara/Portable Programs/Sublime Text Build 3083 x64/Data/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Clara/Dropbox/2D Aardvark Web Player2/2D Aardvark Web Player.html",
+		"/C/Users/Clara/Dropbox/2D Aardvark The Game Canvas2Web/2D Aardvark The Game Canvas2Web.html",
+		"/C/Users/Clara/Dropbox/2D Aardvark Web Player3/2D Aardvark Web Player3.html",
+		"/C/Users/Clara/Dropbox/2D Aardvark Web Player/2D Aardvark Web Player.html",
+		"/C/Users/Clara/Dropbox/Web Aardvark Streamed dev build debug/Web Aardvark Streamed dev build debug.html",
+		"/C/Users/Clara/Dropbox/Web Aardvark Streamed/Web Aardvark Streamed.html",
+		"/C/Users/Clara/Dropbox/Web Aardvark streamed dev/Web Aardvark.html",
+		"/C/Users/Clara/Dropbox/Webinar outlook reminders/Webinar_Reminder_AvioVision_am.ics",
+		"/C/Users/Clara/Dropbox/Webinar outlook reminders/Webinar_Reminder_AvioVision_pm.ics",
+		"/C/Users/Public/Documents/Unity Projects/SS/OLD/ClaraTheGame - Copy/Assets/Door.js",
+		"/C/Users/Public/Documents/Unity Projects/SS/ClaraTheGame/Assets/bigGiraffeTrigger.js",
+		"/C/Users/Clara/Dropbox/Web Aardvark Offline/Web Aardvark Offline.html",
+		"/F/F - Downloads/Webinar_Reminder_Logipad_pm.ics",
+		"/F/F - Downloads/Webinar_Reminder_Logipad_am-2.ics",
+		"/C/Users/Clara/Google Drive/00. Shared Work-Duck/Working From Home/Webinar_Reminder_base_pm.ics",
+		"/C/Users/Clara/Google Drive/00. Shared Work-Duck/Working From Home/Webinar_Reminder_base_am.ics",
+		"/F/F - My Music/iTunes/iTunes Music Library.xml",
+		"/F/F - My Music/iTunes/Library.xml",
+		"/F/F - My Music/iTunes/iTunes Mac files/Library.xml",
+		"/G/C-Safety Backup/Documents/GitHub/Roundhill/html/index.html",
+		"/G/C-Safety Backup/Documents/GitHub/Treehouse-HTML-Email-Tut/html email tut.html.html",
+		"/C/Users/Clara/GitHub/index.html",
+		"/G/PS1 Roms New/Future Cop - L.A.P.D/readme.html",
+		"/C/Users/Clara/AppData/Local/Temp/Temp1_build-an-html-email-template-from-scratch-master.zip/build-an-html-email-template-from-scratch-master/index.html",
+		"/C/Users/Clara/GitHub/DannyCard/js/main.js",
+		"/C/Users/Clara/GitHub/Roundhill/html/assets/css/main.css",
+		"/C/Users/Clara/Downloads/Extruded-CSS-Type-Styles-(PSD)/Extruded Type Styles/Demo/style.css",
+		"/C/Users/Clara/Downloads/Extruded-CSS-Type-Styles-(PSD)/Extruded Type Styles/Demo/demo.html",
+		"/C/Users/Clara/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Clara/GitHub/DannyCard/css/main.css",
+		"/C/Users/Clara/GitHub/DannyCard/index.html"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -116,9 +252,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"quote",
-			"#242427",
-			"efefef"
+			"footer",
+			"  // margin-bottom: 40px;",
+			"body",
+			"html",
+			"content",
+			"	// padding:15px;	",
+			"content",
+			"footer",
+			"panel",
+			"footer",
+			"footer,",
+			"footer",
+			"body",
+			"	// position: relative;",
+			"body",
+			"relati",
+			"footer",
+			"main",
+			"foot",
+			"  background-image: url(\"../img/hexSm.jpg\"); ",
+			"footer",
+			"tiny",
+			"source",
+			"bs",
+			"bsTop",
+			"blur",
+			"bsTop",
+			"color",
+			"blur",
+			"left",
+			"BSTop",
+			"top",
+			"nav",
+			"panel",
+			"background",
+			"	background-image: url(\"../img/hexellence2C.png\");",
+			"	// position: static;",
+			"hex",
+			"panel",
+			"hexe",
+			"background-image: url(\"../img/hexellence.png\");",
+			"light",
+			"Colorborder",
+			"border",
+			"button",
+			"    // border: none;",
+			"border",
+			"#D9D9D9",
+			"	background-image: url(\"../img/hexellence.png\");",
+			"nav",
+			"colorM",
+			"body",
+			"h2",
+			"colorLig",
+			"colorLi",
+			"h2",
+			"h1 {",
+			"h1",
+			"nav",
+			"textb",
+			"button",
+			"    // background-color: $colorMainLight;",
+			"background-colo",
+			"color2nd",
+			"}",
+			"color-1",
+			"color2ndLight",
+			"site",
+			"nav",
+			"blur",
+			"  // background-color: $colorDark;",
+			"footer",
+			"foot",
+			">\n",
+			"text",
+			"body",
+			"	</body>",
+			"contact",
+			" nav",
+			"nav",
+			"90%",
+			"footer",
+			"wrappe",
+			"footer",
+			"wrapper",
+			"idmr",
+			"10",
+			"02",
+			"10",
+			"02",
+			"13",
+			"7",
+			"15",
+			"5",
+			"20160730T070000Z",
+			"5",
+			"whencl",
+			"menuClose",
+			"menuOpen",
+			"h3",
+			"h2",
+			"half",
+			"h3",
+			"liz",
+			"true",
+			"padding-top",
+			"homeim",
+			">\n",
+			"radius",
+			"transition",
+			"trans",
+			"blur",
+			"visited",
+			"image",
+			"button",
+			".main-nav li",
+			"15",
+			"last",
+			".main-nav li a",
+			"desk",
+			"min",
+			"desktop",
+			"19",
+			"16",
+			".main-nav",
+			".main-nav a",
+			".main-nav",
+			".main-nav a"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -126,6 +387,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"h2",
+			"mainNavClose",
+			"file://localhost/F:/F - My Music/iTunes/iTunes%20Media/Music/",
+			"file://localhost/F:/F%20-%20My%20Music/iTunes/iTunes%20Media/Music/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -133,42 +398,103 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Clara\\Dropbox\\Apps\\site44\\claraalder.site44.com"
+		}
+	],
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/css/main.css",
+					"file": "assets/scss/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 584,
+						"buffer_size": 13139,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								491,
-								327
+								8239,
+								8239
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
-							"colorcode": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5403.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -176,36 +502,92 @@
 				},
 				{
 					"buffer": 1,
-					"file": "assets/scss/main.scss",
+					"file": "footerTest.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 967,
+						"buffer_size": 3844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								888,
-								888
+								1646,
+								1646
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
-							"colorcode": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -214,33 +596,178 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7697,
+						"buffer_size": 8644,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								491,
-								491
+								6255,
+								6259
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded).tmTheme",
-							"colorcode": true,
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1473.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "foundationExample.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1083.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -248,7 +775,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -277,23 +804,25 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"output.sftp":
-	{
-		"height": 118.0
-	},
-	"project": "site44_project.sublime-project",
+	"pinned_build_system": "Packages/SASS Build/SASS - Compressed.sublime-build",
+	"project": "",
 	"replace":
 	{
-		"height": 48.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -302,6 +831,7 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -310,6 +840,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -323,7 +854,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 336.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
