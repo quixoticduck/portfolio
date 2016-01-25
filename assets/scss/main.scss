@@ -245,8 +245,11 @@ color: #f8f8f8;
 .myPanel {
   background-color: $colorLight;
   padding: 1.2em;
+  // margin: 2.0em;
+  }
+
   // margin-bottom: 40px;
-}
+
 
 .blur {
 	-webkit-filter:blur(10px);
@@ -279,11 +282,14 @@ box {
 }
 
 .content {
-	// padding:15px;	
 	z-index: 10;
 	// position: relative;
   height: 100%;
+  // max-width: 93%;
+  // margin: auto;
+  padding: 1.2em 2em;
 }
+
 
 
 /* nav stuff from liz-site
@@ -486,6 +492,11 @@ and (max-width: $breakpointTabletMax)
 // and (min-width: $breakpointTinyMax)
 and (max-width: $breakpointPhoneMax) 
 {
+
+  p {
+    line-height:1em;
+  }
+
   nav {
     position: fixed;
     top: 0px;
@@ -555,32 +566,10 @@ and (max-width: $breakpointPhoneMax)
     // border: none;
   }
 
-  // .top {
-  //   display: block;
-  //   position: fixed;
-  //   top: 0px;
-  //   left: 0px;
-  //   width: 100%;
-  //   height: 55px;
-  //   background-color: $colorLight;
-  //   border: none;
-  // }
 
   body {
       padding-top: 55px;
     }
-
-    // .mobileTopBar {
-    //   position: absolute;
-    //   top: 0px;
-    //   // left: 0px;
-    //   right: -120px;
-    //   width: 100%;
-    //       width: 60px;
-    //   height: 60px;
-    //   background-color: $colorMainLight;
-    //   border: none;
-    // }
 
   .col-half {
     width: 100%;
@@ -597,11 +586,6 @@ and (max-width: $breakpointPhoneMax)
     display: none;
   }
 
-  // @media screen and (max-width: $breakpointPhoneMin) {
-  //   .menuOpen h2 {
-  //     display: none;
-  //   }
-  // } 
 
   .navHeadingWhenClose .menuTextClose {
       display: none;
@@ -627,12 +611,28 @@ and (max-width: $breakpointPhoneMax)
 	// footer {
 	// 	position: static;
 	// }
+
+.content {
+    padding: 1.0em 1.4em;
+}
+
+
+  .myPanel {
+    padding: 0.9em;
+    // margin: 1.0em;
+    }
+
 } 
 
 
 @media screen
 and (max-width: $breakpointTinyMax) 
 {
+
+  p {
+    line-height:0.8em;
+  }
+
   .navHeadingWhenClose .menuTextClose {
       display: none;
     }
@@ -648,6 +648,15 @@ and (max-width: $breakpointTinyMax)
   .navHeadingWhenOpen .menuTextMenu {
       display: none;
     }
+
+.content {
+    padding: 0.6em 0.7em;
+}
+
+  // .myPanel {
+  //   padding: 0.8em;
+  //   margin: 0.8em;
+  //   }
 
 	// footer {
 	// 	position: static;
