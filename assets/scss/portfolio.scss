@@ -92,7 +92,7 @@ $breakpointTinyMax: ($breakpointPhoneMin - 1px);
 /* Layout Element Colors
 ==================================== */
 $colorDark:      #222222;
-$colorLight:     #EFEFEF;
+$colorLight:     #EFEFE4;
 $colorMain:      #B5CA15;
 $colorMainLight: #FF696D;
 $color2nd:       #0093A3;
@@ -108,69 +108,72 @@ $color-4: #333333;
 #F0F1F2
 #4D4E53
 
-// : #000000;
-// : #EFEFEF;
-// : #333333;
-// : #085072;
-// : #053D58;
-
-
 html { 
-	// background-image: url("../img/hexellence.png");	
- //  background-image: url("../img/hexSm.jpg"); 
- //    background-image: url("../img/strange_bullseyes.jpg"); 
- //    // background-image: url("../img/random_grey_variations.png"); 
-	// // background-image: url("../img/hexellence2.png");	
-	// // background-image: url("../img/hexellence3.png");	
-	// // background-image: url("../img/pixelEmerald.png");
-	// 	background-repeat: repeat;
-  // background-color: $color2nd;
   padding: 0px;
   margin: 0px;
 }
 
 body {
 	font: 100% $pFont;
-  // font-style: 
-	// background-image: url("../img/hexellence.png");	
-  // background-image: url("../img/hexSm.jpg"); 
-  // background-image: url("../img/strange_bullseyes.png");
-  // background-image: url("../img/sail.jpg");
-  // background-image: url("../img/random_grey_variations.png"); 
-  // background-image: url("../img/hexellence2.png");  	
-  // background-image: url("../img/pixel_weaveD.png");   
   background-image: url("../img/white_grid_paper-background_pattern.jpg");	
-  // background-image: url("../img/wave.png");  
-  // background-color: $color2nd;
-	// background-image: url("../img/hexellence3.png");
-	// background-image: url("../img/pixelEmerald.png");
-		background-repeat: repeat;
+	background-repeat: repeat;
 	// position: relative;
   padding: 0px;
   margin: 0px;
 }
 
-.wave {
+
+
+// .border {
+//   max-width: 100%;
+//   // background-color: pink;
+//   // padding: 10px;
+//   // max-width: 1100px;
+//   margin: 0 auto;
+//   text-align: center;
+//   background-color: rgba(00,119,170,0.4);
+//   background-image: none;
+//   border-style: solid;
+//   border-width: 20px;
+//   border-color: $colorLight;
+// }
+
+.bordery {
   width: 100%;
-  height: 35px;
-  background-image: url("../img/wave.png");  
-  background-repeat: repeat-x;
-  margin-top: 30px;
+  // background-color: $colorLight;
 }
 
-.ocean {
-  width: 100%;
+.sea {
+  max-width: 97%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/assets/img/pixel_weave_slate2.png");
   background-color: rgba(00,119,170,0.4);
-  background-image: none;
 }
 
-.mammoth {
-    background-image: url("../img/mammothTPsm.png"); 
-    width: 350px;
-    height: 238px;
-    float: right;
-    margin: 20px;
-}
+// .wave {
+//   width: 100%;
+//   height: 35px;
+//   background-image: url("../img/wave.png");  
+//   background-repeat: repeat-x;
+//   margin-top: 30px;
+//   margin: 0 auto;
+//   text-align: center;
+// }
+
+// .ocean {
+//   width: 100%;
+//   background-color: rgba(00,119,170,0.4);
+//   background-image: none;
+// }
+
+// .mammoth {
+//     background-image: url("../img/mammothTPsm.png"); 
+//     width: 350px;
+//     height: 238px;
+//     float: right;
+//     margin: 20px;
+// }
 /* Lists
 ========================================================================= */
 
@@ -243,14 +246,16 @@ h1 {
 
 h2 {
   font-family: 'Oswald', sans-serif;
+  font-family: Oswald;
   color:$colorMain;
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 // below is mine
 h2 {
- font-family: lobster;
+ // font-family: lobster;
+
   // font-family: $headingFont;
   display: inline;
 }
@@ -275,7 +280,7 @@ h3 {
 
 /*Global styles*/
 .Header {
-  background-color: #d51270;
+  // background-color: #d51270;
 }
 .Navigation {
   list-style: none;
@@ -400,21 +405,18 @@ box {
 	position: absolute;
 }
 
+
+
 .content {
-	z-index: 10;
-	// position: relative;
-  // height: 100%;
-  // max-width: 93%;
-  // margin: auto;
+  z-index: 10;
   padding: 1.2em 2em;
+
 }
 
 
 
-
-
 footer {
-  // background-image: url("/assets/images/seamlessFlicksRed.png");
+
   background-color: $colorLight;
   color: $colorMainLight;  
   text-align: center;
@@ -495,8 +497,8 @@ footer {
 }
 
 #buffer{
-    height: 162px;
-    background-color: #266b7c;
+    height: 50px;
+    // background-color: #266b7c;
     transition: .6s;
 }
 
@@ -558,6 +560,7 @@ nav.fixed {
   background-image: url("/assets/img/pixel_weave_slate2.png");
   left: 0;
   top: 0;
+  width: 100%;
 }
 /* below is test */
 
@@ -592,7 +595,7 @@ nav.fixed {
 .Card-item {
   list-style: none;
   margin-bottom: 20px;
-  background-color: #eeeeee;
+  background-color: $colorLight;
 }
 .Card-title {
   padding: 0px 10px 7px 10px;
@@ -742,6 +745,10 @@ nav.fixed {
   .Grid-item {
     width: 48%;
   }
+
+    // .Navigation li, .nav_list_left, .nav_list_right {
+  //   display: block;
+  // }
 }
 @media all and (min-width: 592px) {
   .Grid {
@@ -1143,14 +1150,12 @@ and (max-width: $breakpointTinyMax)
     // margin-right: 13px;
     // color: green;
   }
-  .Navigation li, .nav_list_left, .nav_list_right {
-    display: block;
-  }
+
   .logo_wrapper {
     display: none;
   }
 
-nav, footer, button, .myPanel {
+nav, footer, button, .myPanel, .sea {
   // border-style: none;
   border-style: solid;
   border-width: 1px;

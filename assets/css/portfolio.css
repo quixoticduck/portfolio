@@ -34,24 +34,15 @@ body {
   padding: 0px;
   margin: 0px; }
 
-.wave {
-  width: 100%;
-  height: 35px;
-  background-image: url("../img/wave.png");
-  background-repeat: repeat-x;
-  margin-top: 30px; }
+.bordery {
+  width: 100%; }
 
-.ocean {
-  width: 100%;
-  background-color: rgba(0, 119, 170, 0.4);
-  background-image: none; }
-
-.mammoth {
-  background-image: url("../img/mammothTPsm.png");
-  width: 350px;
-  height: 238px;
-  float: right;
-  margin: 20px; }
+.sea {
+  max-width: 97%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/assets/img/pixel_weave_slate2.png");
+  background-color: rgba(0, 119, 170, 0.4); }
 
 /* Lists
 ========================================================================= */
@@ -106,13 +97,13 @@ h1 {
 
 h2 {
   font-family: 'Oswald', sans-serif;
+  font-family: Oswald;
   color: #B5CA15;
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 20px;
   margin-bottom: 10px; }
 
 h2 {
-  font-family: lobster;
   display: inline; }
 
 .textbox h2 {
@@ -131,9 +122,6 @@ h3 {
   font-family: 'Oswald', sans-serif; }
 
 /*Global styles*/
-.Header {
-  background-color: #d51270; }
-
 .Navigation {
   list-style: none;
   padding-left: 0; }
@@ -203,7 +191,7 @@ a:active {
   min-height: 100%; }
 
 .myPanel {
-  background-color: #EFEFEF;
+  background-color: #EFEFE4;
   padding: 1.2em; }
 
 .blur {
@@ -242,7 +230,7 @@ box {
   padding: 1.2em 2em; }
 
 footer {
-  background-color: #EFEFEF;
+  background-color: #EFEFE4;
   color: #FF696D;
   text-align: center;
   padding: 1rem;
@@ -307,8 +295,7 @@ footer {
   transition: .6s; }
 
 #buffer {
-  height: 162px;
-  background-color: #266b7c;
+  height: 50px;
   transition: .6s; }
 
 #buffer.shrink {
@@ -356,7 +343,8 @@ nav.fixed {
   z-index: 5;
   background-image: url("/assets/img/pixel_weave_slate2.png");
   left: 0;
-  top: 0; }
+  top: 0;
+  width: 100%; }
 
 /* below is test */
 /* CODE BAR NAV END */
@@ -382,7 +370,7 @@ nav.fixed {
 .Card-item {
   list-style: none;
   margin-bottom: 20px;
-  background-color: #eeeeee; }
+  background-color: #EFEFE4; }
 
 .Card-title {
   padding: 0px 10px 7px 10px;
@@ -584,7 +572,7 @@ nav.fixed {
   max-width: 50%;
   text-align: center;
   padding: 12px 12px;
-  background-color: #EFEFEF; }
+  background-color: #EFEFE4; }
 
 .textbox p, .textbox h1, .textbox h2, .textbox h3 {
   padding: 2px 0px;
@@ -598,13 +586,10 @@ nav.fixed {
   font-size: 17px;
   margin-left: 22px; }
 
-.Navigation li, .nav_list_left, .nav_list_right {
-  display: block; }
-
 .logo_wrapper {
   display: none; }
 
-nav, footer, button, .myPanel {
+nav, footer, button, .myPanel, .sea {
   border-style: solid;
   border-width: 1px;
   border-color: #D9D9D9;
