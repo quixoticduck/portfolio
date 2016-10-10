@@ -1,0 +1,152 @@
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Clara Alder | Portfolio Blur.js</title>
+<!-- 		<link rel="stylesheet" href="stylesheets/app.css"> -->
+		<link rel="stylesheet" href="assets/css/main.css">
+		<script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js'></script>
+		<script type='text/javascript' src='js/blur.min.js'></script>
+		<script src="bower_components/modernizr/modernizr.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Fenix' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+    <div class="wrapper">
+      <div class="navigation">
+    		<button class="mainNavClose navHeadingWhenClose">
+      		<i class="fa fa-bars fa-2x"></i>
+      		<div class="menuTextMenu">
+      			<h2>MENU</h2>
+      		</div>
+      		<div class="menuTextClose">
+      			<h2>X</h2>
+      		</div>
+    		</button>
+    		<nav class="navClose">
+    			<h1 class="main-logo">
+            <a href="/"</a>
+    		  	clara alder - WEBSITE WIP
+    			</h1>
+          <ul class="main-nav navClose">
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/indexOld.html" class="active">Index Old</a></li>
+            <li><a href="/about.html" class="active">About</a></li>
+            <li><a href="/danny-index.html" class="active">Danny Index Test</a></li>
+            <li><a href="/foundationExample.html" class="active">Foundation Example</a></li>
+          </ul>
+    		</nav>
+      </div>
+      <div class="wave"> 
+      </div>
+      <div class="ocean">
+        <div class="content">
+  				<div class="myPanel">
+  					<h3>Portfolio </h3>
+  					<p>Hi, I am mammoth</p>
+  					<div class="row">
+  						<div class="large-4 medium-4 columns">
+  							<p><a href="/about.html">Mammothy</a><br />Tusky tusk.</p>
+  						</div>
+  						<div class="large-4 medium-4 columns">
+  							<p>I like to swim in the Brighton sea. Moooo. </p>
+  						</div>
+
+  					</div>
+  				</div>
+          <div class="mammoth"></div>
+        </div>
+
+
+    <!-- Footer -->
+    <footer>
+      CLARA
+    </footer>
+          </div>
+              </div>
+    <!-- Footer -->
+
+  	<script type="text/javascript">
+  		// $(document).ready(function(){
+  		// 	$('.circle').blurjs({
+  		// 		draggable: true,
+  		// 		overlay: 'rgba(255,255,255,0.1)',
+  		// 		radius:10
+  		// 	});
+  		// });
+
+  		$(document).ready(function(){				
+  			$('.myPanel,.circle, nav, button, textbox, footer').blurjs({
+          source: 'body',
+  				draggable: false,
+  				overlay: 'rgba(255,255,255,0.4)',
+  				radius:2,
+          offset: { 
+                    x: 3, y: 6 
+                  },
+  			});
+  		});
+  	</script>
+
+    <script>
+      //   source: 'body',
+      //   //Background to blur
+      //   radius: 5,
+      //   //Blur Radius
+      //   overlay: '', 
+      //   //Overlay Color, follow CSS3's rgba() syntax
+      //   offset: { 
+      //             x: 0, y: 0 
+      //           },
+      //   //Pixel offset of background-position 
+
+      //   optClass: '',
+      //   //Class to add to all affected elements
+      //   cache: false,
+      //   //If set to true, blurred image will be cached and used in the future. If image is in cache already, it will be used. cacheKeyPrefix: 'blurjs-', //Prefix to the keyname in the localStorage object
+      //   draggable: false
+      //   //Only used if jQuery UI is present. Will change background-position to fixed
+    </script>
+
+    <script>
+      $(document).ready(function() {
+      var $navBar = $('nav');
+      var $navList = $('.main-nav');
+      var $menuButton = $('.mainNavClose');
+      var sideBarOpen = false;
+      	$menuButton.click(function() {
+      		console.log ("click");
+      	if (!sideBarOpen) {
+      			$navBar.removeClass('navClose');
+      			$navList.removeClass('navClose');
+      			$menuButton.removeClass('navHeadingWhenClose');
+      			$('.menuTextClose').removeClass('navHeadingWhenClose');
+      			$('.menuTextMenu').removeClass('navHeadingWhenClose');
+      			$navBar.addClass('navOpen');
+      			$navList.addClass('navOpen');
+      			$menuButton.addClass('navHeadingWhenOpen');
+      			$('.menuTextClose').addClass('navHeadingWhenOpen');
+      			$('.menuTextMenu').addClass('navHeadingWhenOpen');
+      	sideBarOpen = true;
+      	console.log ("true");
+      	}
+      	else {
+      			$navBar.removeClass('navOpen');
+      			$navList.removeClass('navOpen');
+      			$menuButton.removeClass('navHeadingWhenOpen');
+      			$('.menuTextClose').removeClass('navHeadingWhenOpen');
+      			$('.menuTextMenu').removeClass('navHeadingWhenOpen');
+      			$navBar.addClass('navClose');
+      			$navList.addClass('navClose');
+      			$menuButton.addClass('navHeadingWhenClose');
+      			$('.menuTextClose').addClass('navHeadingWhenClose');
+      			$('.menuTextMenu').addClass('navHeadingWhenClose');
+      	sideBarOpen = false;
+      	console.log ("false");
+      	}
+      	});
+      		});
+      </script>
+
+	</body>
+</html>

@@ -1,0 +1,78 @@
+1469873734
+a:2:{s:7:"content";s:2760:"<p>&lt;!DOCTYPE html&gt;</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"><!--To make the site responsive-->
+    <link rel="stylesheet" href="../../../../assets/css/styles.css"><!--Link to your CSS file-->
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>Portfolio</li>
+            <li><a href="mailto:claraalder88@email.com">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1>Clara Alder, person.</h1>
+    <img src="http://www.lottejackson.com/assets/images/workshop/margaret-hamilton.jpg" alt="Margaret Hamilton">
+    <p>Hey, I'm Margaret. I have a B.A. degree in mathematics with a minor in philosophy from Earlham College and I've been learning to code for the last 12 months. I've recently started working as a junior computer scientist and systems engineer in Boston and I use this website to document everything I learn and the projects I work on. When I'm not at work I compete in rowing races throughout America.</p>
+    <h2>Projects</h2>
+    <!--If you'd like to include images of your portfolio work, use this list-->
+    <ul>
+        <li>
+            <a href="">
+                <img src="http://placehold.it/350x150" alt="Alt text">
+                <span>Project name</span>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="http://placehold.it/350x150" alt="Alt text">
+                <span>Project name</span>
+            </a>
+        </li>
+            <li>
+            <a href="">
+                <img src="http://placehold.it/350x150" alt="Alt text">
+                <span>Project name</span>
+            </a>
+        </li>
+    </ul>
+
+    <!--If you would prefer not to use images, use this instead-->
+    <ul>
+        <li>
+            <div>
+                <h3>Codebar project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, perferendis.</p>
+                <a href="">Go to project ></a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3>Side project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, perferendis.</p>
+                <a href="">Go to project ></a>
+            </div>
+        </li>
+        <li>
+            <div>
+                <h3>Client project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <a href="">Go to project ></a>
+            </div>
+        </li>
+    </ul>
+    <h3>Elsewhere</h3>
+    <ul>
+        <li><a href="">Twitter</a></li>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">LinkedIn</a></li>
+    </ul>
+</main>
+</body>
+</html>";s:12:"content_meta";N;}

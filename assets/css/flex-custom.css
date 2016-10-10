@@ -1,0 +1,214 @@
+/*Your styles goes here*/
+body {
+    background-color: green;
+}
+
+.testy {color:red;}
+
+ul {
+	list-style: none;
+}
+
+/*Fonts*/
+
+@import 'https://fonts.googleapis.com/css?family=Lato|Raleway';
+
+
+h1 {font-family: 'Lato', sans-serif;}
+
+p  {font-family: 'Raleway', sans-serif;}
+
+
+
+//*Element styles*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+	background-color: #fefefe;
+	color: #333333;
+}
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+a {
+	color: #de1977;
+	text-decoration: none;
+}
+a:hover {
+	color: #63186C;
+}
+p {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Global styles*/
+.Header {
+	background-color: #d51270;
+}
+.Navigation {
+	list-style: none;
+	padding-left: 0;
+}
+.Navigation li {
+	padding-right: 15px;
+	display: inline-block;
+}
+.Navigation li a {
+	font-size: 17px;
+	color: #ffffff;
+}
+.Navigation li a:hover {
+	text-decoration: underline;
+}
+.Navigation-current {
+	color: #d3d3d3;
+	font-weight: 700;
+}
+.Container {
+	padding: 10px;
+/*	max-width: 900px;*/
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+}
+.List-noBullets {
+	list-style: none;
+	padding-left: 0;
+}
+
+/*Component styles*/
+.Photo {
+	border-radius: 300px;
+	max-width: 200px;
+	margin: 10px auto 20px auto;
+	display: block;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.Cards {
+	padding: 0;
+	margin: 0;
+}
+.Card-item {
+	list-style: none;
+	margin-bottom: 20px;
+	background-color: #eeeeee;
+}
+.Card-title {
+	padding: 0px 10px 7px 10px;
+	display: block;
+	align-items: flex-start;
+}
+.Card-info {
+	font-size: 16px;
+	min-height: 100px;
+	padding: 20px;
+}
+.Card-info .Card-title {
+	font-weight: 700;
+}
+/*Pseudo classes for first-child and nth-child*/
+.Social-link:first-child a {
+	border-color: #1984de;
+	color: #1984de;
+}
+.Social-link:nth-child(2) a {
+	border-color: #6d19de;
+	color: #6d19de;
+}
+.Social-link a {
+	padding: 5px;
+	border: 2px solid #de1977;
+	display: inline-block;
+	margin-bottom: 10px;
+	min-width: 130px;
+	font-size: 15px;
+}
+.Social-link a:hover {
+	opacity: 0.6;
+}
+
+/*Grid styles*/
+.Grid {
+	overflow: hidden;
+}
+.Grid-item {
+	box-sizing: border-box;
+	margin: 1%;
+	float: left;
+	width: 100%;
+}
+.Grid-item:hover {
+	transform: scale(1.02);
+}
+
+/*Media queries*/
+@media all and (min-width: 480px) {
+	/*Component styles*/
+	.Card-info {
+		min-height: 200px;
+	}
+	/*Grid styles*/
+	.Grid-item {
+		width: 48%;
+	}
+}
+@media all and (min-width: 592px) {
+	.Grid {
+		display: flex; 	/*Flexbox container*/
+		flex-wrap: wrap;
+	}
+	/*Global styles*/
+	h1 {
+		font-size: 60px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	/*Grid styles*/
+	.Grid-item {
+		width: auto;
+	}
+	.Grid-whole {
+		width: 98%;
+	}
+	.Grid-half {
+		width: 48%;
+	}
+	.Grid-third {
+		width: 31.3%;
+	}
+	.Grid-quarter {
+		width: 23%;
+	}
+	
+	/*Component styles*/
+	.Social-link {
+		display: inline-block;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}

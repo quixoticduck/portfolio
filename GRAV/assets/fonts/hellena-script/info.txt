@@ -1,0 +1,14 @@
+Hellena Script
+------------------------------------
+------------------------------------
+
+Files included : 
+- Hellena Script (OpenType.OTF)
+- Hellena Script (TrueType.TTF)
+- Hellena Script (SVG)
+- Hellena Script (EOT)
+- Hellena Script (WOFF)
+- Hellena Script (WOFF2)
+
+
+Mail support : thequeentype@gmail.com (Feel free to get in touch if you need any help)
