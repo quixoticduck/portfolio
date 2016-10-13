@@ -2,27 +2,34 @@
 ==================================== */
 /* MIXINS END
 ==================================== */
-/* FONT STUFF
-==================================== */
-@import "https://fonts.googleapis.com/css?family=Lato|Raleway";
-@font-face {
-  font-family: 'hellena-script';
-  src: url("../fonts/hellena-script/Hellena Script-webfont.eot");
-  src: url("../fonts/hellena-script/Hellena Script-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hellena-script/Hellena Script-webfont.woff") format("woff"), url("../fonts/hellena-script/Hellena Script-webfont.ttf") format("truetype"), url("../fonts/hellena-script/Hellena Script-webfont.svg#webfont") format("svg"); }
-/* FONT STUFF END
-==================================== */
 /* Media Query Breakpoints
 ==================================== */
 /* /END/ Media Query Breakpoints
 ==================================== */
 /* Layout Element Colors
 ==================================== */
+@import "https://fonts.googleapis.com/css?family=Open-Sans|Roboto-Slab";
 #990055
 #669900
 #0077AA
 #F4F5F6
 #F0F1F2
 #4D4E53
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* FONT STUFF
+==================================== */
+@font-face {
+  font-family: 'hellena-script';
+  src: url("../fonts/hellena-script/Hellena Script-webfont.eot");
+  src: url("../fonts/hellena-script/Hellena Script-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hellena-script/Hellena Script-webfont.woff") format("woff"), url("../fonts/hellena-script/Hellena Script-webfont.ttf") format("truetype"), url("../fonts/hellena-script/Hellena Script-webfont.svg#webfont") format("svg"); }
+/* FONT STUFF END
+==================================== */
+/*Fonts*/
 html {
   padding: 0px;
   margin: 0px; }
@@ -32,40 +39,10 @@ body {
   background-image: url("../img/white_grid_paper-background_pattern.jpg");
   background-repeat: repeat;
   padding: 0px;
-  margin: 0px; }
-
-.bordery {
-  width: 100%; }
-
-.sea {
-  max-width: 97%;
-  margin: 0 auto;
-  text-align: center;
-  background-image: url("/assets/img/pixel_weave_slate2.png");
-  background-color: rgba(0, 119, 170, 0.4); }
-
-/* Lists
-========================================================================= */
-ol,
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-/*Fonts*/
-h1 {
-  font-family: 'Lato', sans-serif; }
-
-p {
-  font-family: 'Raleway', sans-serif; }
-
-body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   line-height: 1.4;
-  background-color: #fefefe;
   color: #333333; }
 
 ul {
@@ -82,13 +59,14 @@ a:hover {
   color: #63186C; }
 
 p {
+  font: 95% "Open Sans", Helvetica, sans-serif;
   margin-top: 10px;
   margin-bottom: 5px;
   color: #222222;
   line-height: 1.5em; }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   color: #222222;
   font-weight: normal;
   font-size: 35px;
@@ -96,30 +74,25 @@ h1 {
   margin-bottom: 20px; }
 
 h2 {
-  font-family: 'Oswald', sans-serif;
-  font-family: Oswald;
+  font-family: "Roboto Slab", sans-serif;
   color: #B5CA15;
-  font-weight: bold;
+  font-weight: normal;
   margin-top: 20px;
-  margin-bottom: 10px; }
-
-h2 {
+  margin-bottom: 10px;
   display: inline; }
 
 .textbox h2 {
   color: #222222; }
 
 h3 {
+  font-family: "Open Sans", Helvetica, sans-serif;
   color: #0093A3;
   margin: 12px;
   line-height: 43px;
   display: inline;
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px; }
-
-h3 {
-  font-family: 'Oswald', sans-serif; }
 
 /*Global styles*/
 .Navigation {
@@ -190,10 +163,6 @@ a:active {
 .wrapper {
   min-height: 100%; }
 
-.myPanel {
-  background-color: #EFEFE4;
-  padding: 1.2em; }
-
 .blur {
   -webkit-filter: blur(10px); }
 
@@ -224,6 +193,13 @@ box {
   -webkit-filter: blur(1px);
   z-index: 0;
   position: absolute; }
+
+.sea {
+  max-width: 96%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/assets/img/pixel_weave_slate2.png");
+  z-index: 100; }
 
 .content {
   z-index: 10;
@@ -356,9 +332,7 @@ nav.fixed {
   border-radius: 300px;
   max-width: 200px;
   margin: 10px auto 20px auto;
-  display: block;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
+  display: block; }
 
 .thumby {
   max-width: 100%; }
@@ -366,6 +340,11 @@ nav.fixed {
 .Cards {
   padding: 0;
   margin: 0; }
+
+.panel {
+  padding: 1.2em;
+  margin-bottom: 20px;
+  background-color: #EFEFE4; }
 
 .Card-item {
   list-style: none;
@@ -541,7 +520,7 @@ nav.fixed {
   .content {
     padding: 1.0em 1.4em; }
 
-  .myPanel {
+  .panel {
     padding: 0.9em; } }
 @media screen and (max-width: 459px) {
   p {
@@ -589,7 +568,7 @@ nav.fixed {
 .logo_wrapper {
   display: none; }
 
-nav, footer, button, .myPanel, .sea {
+nav, footer, button, .sea, .Card-item, .panel {
   border-style: solid;
   border-width: 1px;
   border-color: #D9D9D9;

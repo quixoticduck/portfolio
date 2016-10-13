@@ -45,35 +45,7 @@ $bsColorLight: rgba(255, 255, 255, 0.8);
 /* MIXINS END
 ==================================== */
 
-/* FONT STUFF
-==================================== */
 
-// @font-face {
-//   font-family: 'brushpen';
-//   src: url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.eot'); /* IE9 Compat Modes */
-//   src: url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-//        url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-//        url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-//        url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-//        url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-// }
-
-@font-face{ 
-	font-family: 'hellena-script';
-	src: url('../fonts/hellena-script/Hellena Script-webfont.eot');
-	src: url('../fonts/hellena-script/Hellena Script-webfont.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/hellena-script/Hellena Script-webfont.woff') format('woff'),
-	     url('../fonts/hellena-script/Hellena Script-webfont.ttf') format('truetype'),
-	     url('../fonts/hellena-script/Hellena Script-webfont.svg#webfont') format('svg');
-}
-
-$featureFont: 'hellena-script', cursive;
-$headingFont: 'Fenix', serif;
-$pFont:'Open Sans', Helvetica, sans-serif;
-
-
-/* FONT STUFF END
-==================================== */
 
 /* Media Query Breakpoints
 ==================================== */
@@ -108,72 +80,30 @@ $color-4: #333333;
 #F0F1F2
 #4D4E53
 
-html { 
-  padding: 0px;
-  margin: 0px;
-}
 
-body {
-	font: 100% $pFont;
-  background-image: url("../img/white_grid_paper-background_pattern.jpg");	
-	background-repeat: repeat;
-	// position: relative;
-  padding: 0px;
-  margin: 0px;
-}
+  // .wave {
+    //   width: 100%;
+    //   height: 35px;
+    //   background-image: url("../img/wave.png");  
+    //   background-repeat: repeat-x;
+    //   margin-top: 30px;
+    //   margin: 0 auto;
+    //   text-align: center;
+    // }
 
+    // .ocean {
+    //   width: 100%;
+    //   background-color: rgba(00,119,170,0.4);
+    //   background-image: none;
+    // }
 
-
-// .border {
-//   max-width: 100%;
-//   // background-color: pink;
-//   // padding: 10px;
-//   // max-width: 1100px;
-//   margin: 0 auto;
-//   text-align: center;
-//   background-color: rgba(00,119,170,0.4);
-//   background-image: none;
-//   border-style: solid;
-//   border-width: 20px;
-//   border-color: $colorLight;
-// }
-
-.bordery {
-  width: 100%;
-  // background-color: $colorLight;
-}
-
-.sea {
-  max-width: 97%;
-  margin: 0 auto;
-  text-align: center;
-  background-image: url("/assets/img/pixel_weave_slate2.png");
-  background-color: rgba(00,119,170,0.4);
-}
-
-// .wave {
-//   width: 100%;
-//   height: 35px;
-//   background-image: url("../img/wave.png");  
-//   background-repeat: repeat-x;
-//   margin-top: 30px;
-//   margin: 0 auto;
-//   text-align: center;
-// }
-
-// .ocean {
-//   width: 100%;
-//   background-color: rgba(00,119,170,0.4);
-//   background-image: none;
-// }
-
-// .mammoth {
-//     background-image: url("../img/mammothTPsm.png"); 
-//     width: 350px;
-//     height: 238px;
-//     float: right;
-//     margin: 20px;
-// }
+    // .mammoth {
+    //     background-image: url("../img/mammothTPsm.png"); 
+    //     width: 350px;
+    //     height: 238px;
+    //     float: right;
+    //     margin: 20px;
+  // }
 /* Lists
 ========================================================================= */
 
@@ -185,25 +115,72 @@ ul {
   padding: 0;
   list-style: none;
 }
-
 // End Remove default list styles, margins and padding
+
+/* FONT STUFF
+==================================== */
+
+// @font-face {
+//   font-family: 'brushpen';
+//   src: url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.eot'); /* IE9 Compat Modes */
+//   src: url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//        url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+//        url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+//        url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+//        url('../fonts/AnotherBrushPen/anotherBrushPen-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+// }
+
+@font-face{ 
+  font-family: 'hellena-script';
+  src: url('../fonts/hellena-script/Hellena Script-webfont.eot');
+  src: url('../fonts/hellena-script/Hellena Script-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/hellena-script/Hellena Script-webfont.woff') format('woff'),
+       url('../fonts/hellena-script/Hellena Script-webfont.ttf') format('truetype'),
+       url('../fonts/hellena-script/Hellena Script-webfont.svg#webfont') format('svg');
+}
+
+$featureFont: 'hellena-script', cursive;
+// $headingFont: 'Lato', serif;
+$headingFont: 'Roboto Slab', sans-serif;
+// $headingFont: 'Raleway', sans-serif;
+// $pFont:'Open Sans', Helvetica, sans-serif;
+// $pFont:'Lato', Helvetica, sans-serif;
+$pFont:'Open Sans', Helvetica, sans-serif;
+// $pFont: 'Fenix', serif;
+// $pFont: 'Roboto Slab', serif;
+// $pFont: 'Raleway', serif;
+// $pFont: 'Roboto', sans-serif;
+
+/* FONT STUFF END
+==================================== */
 
 /*Fonts*/
 
-@import 'https://fonts.googleapis.com/css?family=Lato|Raleway';
+// @import 'https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto|Roboto-Slab';
+@import 'https://fonts.googleapis.com/css?family=Open-Sans|Roboto-Slab';
 
-h1 {font-family: 'Lato', sans-serif;}
-p  {font-family: 'Raleway', sans-serif;}
 
 //*Element styles*/
+
+html { 
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
-  margin: 0;
-  padding: 0;
+  font: 100% $pFont;
+  background-image: url("../img/white_grid_paper-background_pattern.jpg");  
+  // @include blur (2px);
+  background-repeat: repeat;
+  // position: relative;
+  padding: 0px;
+  margin: 0px;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
   line-height: 1.4;
-  background-color: #fefefe;
+  // background-color: #fefefe;
   color: #333333;
+  // position: relative;
 }
 ul {
   margin-top: 0;
@@ -219,6 +196,7 @@ a:hover {
   color: #63186C;
 }
 p {
+  font: 95% $pFont;
   margin-top: 10px;
   margin-bottom: 5px;
   color: $colorDark;
@@ -227,8 +205,11 @@ p {
   // margin: 7px 0px 10px 0px;
 }
 
+// p  {font-family: 'Raleway', sans-serif;}
+
 h1 {
-  font-family: 'Raleway', sans-serif;
+  // font-family: 'Raleway', sans-serif;
+  font-family: $headingFont;
   color:$colorDark;
   font-weight: normal;
   font-size: 35px;
@@ -236,27 +217,12 @@ h1 {
   margin-bottom: 20px;
 }
 
-// below is mine
-// h1 {
-
-//   font-family: $featureFont;
-//   font-size: 37px;
-//   margin: 12px 0px; 
-// }
-
 h2 {
-  font-family: 'Oswald', sans-serif;
-  font-family: Oswald;
+  font-family: $headingFont;
   color:$colorMain;
-  font-weight: bold;
+  font-weight: normal;
   margin-top: 20px;
   margin-bottom: 10px;
-}
-// below is mine
-h2 {
- // font-family: lobster;
-
-  // font-family: $headingFont;
   display: inline;
 }
 
@@ -265,18 +231,16 @@ h2 {
 }
 
 h3 {
+  font-family: $pFont;
   color:$color2nd;
   margin: 12px;
   line-height: 43px;
   display: inline;
-  font-weight: normal;
+  font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-// below is mine
-h3 {
-  font-family: 'Oswald', sans-serif;
-}
+
 
 /*Global styles*/
 .Header {
@@ -367,10 +331,7 @@ color: #f8f8f8;
 	// position: relative;
 }
 
-.myPanel {
-  background-color: $colorLight;
-  padding: 1.2em;
-}
+
 
   // margin-bottom: 40px;
 
@@ -405,6 +366,24 @@ box {
 	position: absolute;
 }
 
+// .bg {
+//   background-image: url("/assets/img/pixel_weave_slate2.png");  
+//     @include blur (3px);
+//     position: absolute;
+//     top: 0px;
+//     bottom: 0px;
+//     right: 0px;
+//     left: 0px;
+// }
+
+.sea {
+  max-width: 96%;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/assets/img/pixel_weave_slate2.png");
+  // background-color: rgba(00,119,170,0.4);
+  z-index: 100;
+}
 
 
 .content {
@@ -581,8 +560,8 @@ nav.fixed {
   max-width: 200px;
   margin: 10px auto 20px auto;
   display: block;
-  -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+  // -webkit-filter: grayscale(100%);
+  //   filter: grayscale(100%);
 }
 
 .thumby {
@@ -592,10 +571,26 @@ nav.fixed {
   padding: 0;
   margin: 0;
 }
+
+// .myPanel {
+//   background-color: $colorLight;
+//   padding: 1.2em;
+//   margin: 20px 0;
+// }
+
+.panel {
+  padding: 1.2em;
+  margin-bottom: 20px;
+  background-color: $colorLight;
+}
+
 .Card-item {
   list-style: none;
   margin-bottom: 20px;
   background-color: $colorLight;
+  // background-image: url("/assets/img/pixel_weave_slate2.png");
+
+
 }
 .Card-title {
   padding: 0px 10px 7px 10px;
@@ -1066,7 +1061,7 @@ and (max-width: $breakpointPhoneMax)
 }
 
 
-  .myPanel {
+  .panel {
     padding: 0.9em;
     // margin: 1.0em;
     }
@@ -1155,7 +1150,7 @@ and (max-width: $breakpointTinyMax)
     display: none;
   }
 
-nav, footer, button, .myPanel, .sea {
+nav, footer, button, .sea, .Card-item, .panel {
   // border-style: none;
   border-style: solid;
   border-width: 1px;
