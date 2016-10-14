@@ -364,6 +364,10 @@ nav.fixed {
 .Card-info .Card-title {
   font-weight: 700; }
 
+.Card-image {
+  width: 93%;
+  margin: auto; }
+
 .social-link li {
   margin: 15px; }
 
