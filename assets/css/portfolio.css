@@ -89,7 +89,7 @@ h3 {
   color: #0093A3;
   margin: 12px;
   line-height: 43px;
-  display: inline;
+  display: block;
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px; }
@@ -193,13 +193,6 @@ box {
   -webkit-filter: blur(1px);
   z-index: 0;
   position: absolute; }
-
-.sea {
-  max-width: 96%;
-  margin: 0 auto;
-  text-align: center;
-  background-image: url("/assets/img/pixel_weave_slate2.png");
-  z-index: 100; }
 
 .content {
   z-index: 10;
@@ -365,7 +358,7 @@ nav.fixed {
   font-weight: 700; }
 
 .Card-image {
-  width: 93%;
+  max-width: 93%;
   margin: auto; }
 
 .social-link li {
@@ -572,14 +565,14 @@ nav.fixed {
 .logo_wrapper {
   display: none; }
 
-nav, footer, button, .sea, .Card-item, .panel {
+nav, footer, button, .Card-item, .panel {
   border-style: solid;
   border-width: 1px;
   border-color: #D9D9D9;
   -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
-  z-index: 500; }
+  z-index: 4; }
 
 /* blur.js sass
 ==================================== */

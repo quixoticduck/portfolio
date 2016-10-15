@@ -235,7 +235,7 @@ h3 {
   color:$color2nd;
   margin: 12px;
   line-height: 43px;
-  display: inline;
+  display: block;
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -376,26 +376,22 @@ box {
 //     left: 0px;
 // }
 
-.sea {
-  max-width: 96%;
-  margin: 0 auto;
-  text-align: center;
-  background-image: url("/assets/img/pixel_weave_slate2.png");
-  // background-color: rgba(00,119,170,0.4);
-  z-index: 100;
-}
+// .sea {
+//   max-width: 96%;
+//   margin: 0 auto;
+//   text-align: center;
+//   background-image: url("/assets/img/pixel_weave_slate2.png");
+//   // background-color: rgba(00,119,170,0.4);
+//   z-index: 100;
+// }
 
 
 .content {
   z-index: 10;
   padding: 1.2em 2em;
-
 }
 
-
-
 footer {
-
   background-color: $colorLight;
   color: $colorMainLight;  
   text-align: center;
@@ -609,8 +605,9 @@ nav.fixed {
 
 .Card-image {
   // max-width: 450px;
-  width: 93%;
+  max-width: 93%;
   margin: auto;
+  // display: inline-block;
 }
 
 .social-link li {
@@ -1157,13 +1154,13 @@ and (max-width: $breakpointTinyMax)
     display: none;
   }
 
-nav, footer, button, .sea, .Card-item, .panel {
+nav, footer, button, .Card-item, .panel {
   // border-style: none;
   border-style: solid;
   border-width: 1px;
   border-color: $colorBorder;
   @include box-shadow($bsTop, $bsLeft, $bsBlur, $bsColor, $inset: false);
-  z-index: 500;
+  z-index: 4;
 }
 
 
