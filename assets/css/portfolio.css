@@ -70,7 +70,7 @@ h1 {
   color: #222222;
   font-weight: normal;
   font-size: 35px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px; }
 
 h2 {
@@ -235,10 +235,8 @@ footer {
 .button {
   display: none;
   color: #f8f8f8;
-  padding: 5px 0px;
   vertical-align: top;
   font-size: 27px;
-  font-family: 'Vollkorn', Georgia, Times, serif;
   font-weight: 300;
   text-align: center; }
 
@@ -414,7 +412,7 @@ nav.fixed {
 
   /*Grid styles*/
   .Grid-item {
-    width: 48%; } }
+    width: 98%; } }
 @media all and (min-width: 592px) {
   .Grid {
     display: flex;
@@ -424,8 +422,8 @@ nav.fixed {
   /*Global styles*/
   h1 {
     font-size: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px; }
+    margin-top: 10px;
+    margin-bottom: 20px; }
 
   /*Grid styles*/
   .Grid-item {
@@ -469,11 +467,14 @@ nav.fixed {
     font-size: 17px;
     margin-left: 22px; }
 
-  .Navigation li, .nav_list_left, .nav_list_right {
-    display: block; }
+  .Navigation li, .nav_list_left, .nav_list_right, .fixed, #buffer {
+    display: none; }
 
   .logo_wrapper {
-    display: none; } }
+    display: none; }
+
+  .button {
+    display: block; } }
 /* TABLET SCREEN END
 ==================================== */
 .mainNavClose {
@@ -498,14 +499,14 @@ nav.fixed {
     font-size: 17px;
     margin-left: 22px; }
 
-  .Navigation li, .nav_list_left, .nav_list_right {
-    display: block; }
+  .Navigation li, .nav_list_left, .nav_list_right, .fixed, #buffer {
+    display: none; }
 
   .logo_wrapper {
     display: none; }
 
-  body {
-    padding-top: 55px; }
+  .button {
+    display: block; }
 
   .col-half {
     width: 100%; }

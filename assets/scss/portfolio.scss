@@ -45,8 +45,6 @@ $bsColorLight: rgba(255, 255, 255, 0.8);
 /* MIXINS END
 ==================================== */
 
-
-
 /* Media Query Breakpoints
 ==================================== */
 $breakpointDesktopMin: 1280px;
@@ -80,30 +78,6 @@ $color-4: #333333;
 #F0F1F2
 #4D4E53
 
-
-  // .wave {
-    //   width: 100%;
-    //   height: 35px;
-    //   background-image: url("../img/wave.png");  
-    //   background-repeat: repeat-x;
-    //   margin-top: 30px;
-    //   margin: 0 auto;
-    //   text-align: center;
-    // }
-
-    // .ocean {
-    //   width: 100%;
-    //   background-color: rgba(00,119,170,0.4);
-    //   background-image: none;
-    // }
-
-    // .mammoth {
-    //     background-image: url("../img/mammothTPsm.png"); 
-    //     width: 350px;
-    //     height: 238px;
-    //     float: right;
-    //     margin: 20px;
-  // }
 /* Lists
 ========================================================================= */
 
@@ -213,7 +187,7 @@ h1 {
   color:$colorDark;
   font-weight: normal;
   font-size: 35px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -324,7 +298,7 @@ color: #f8f8f8;
 }
 
 .button:focus { outline: none; }
-// FROM ROUNDHILL AND CHARLOTTES CSS
+
 
 .wrapper {
 	min-height: 100%;
@@ -439,10 +413,10 @@ footer {
 .button {
   display: none;
   color: #f8f8f8;
-  padding: 5px 0px;
+  // padding: 5px 0px;
   vertical-align: top;
   font-size: 27px;
-  font-family: 'Vollkorn', Georgia, Times, serif;
+  // font-family: 'Vollkorn', Georgia, Times, serif;
   font-weight: 300;
   text-align: center;
 }
@@ -675,64 +649,7 @@ nav.fixed {
   // margin-top: 8px;
 }
 
-// a.twitter-timeline {
-//   /* Buttonish */
-//   display: inline-block;
-//   padding: 6px 12px 6px 30px;
-//   margin: 10px 0;
-//   border: #ccc solid 1px;
-//   border-radius: 3px;
-//   background: #red url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNzIgNzIiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDcyIDcyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxyZWN0IHg9IjAiIGZpbGw9Im5vbmUiIHdpZHRoPSI3MiIgaGVpZ2h0PSI3MiIvPg0KPHBhdGggZmlsbD0iIzU1YWNlZSIgZD0iTTY4LjgxMiwxNS4xNDFjLTIuMzQ4LDEuMDM5LTQuODY5LDEuNzQzLTcuNTE5LDIuMDZjMi43MDMtMS42Miw0Ljc3OC00LjE4Nyw1Ljc1Ni03LjI0NGMtMi41MjksMS41LTUuMzMsMi41OTItOC4zMTMsMy4xNzYNCglDNTYuMzQ5LDEwLjU5MSw1Mi45NDgsOSw0OS4xODIsOWMtNy4yMjksMC0xMy4wOTIsNS44NjEtMTMuMDkyLDEzLjA5M2MwLDEuMDI2LDAuMTE4LDIuMDIxLDAuMzM4LDIuOTgxDQoJYy0xMC44ODUtMC41NDgtMjAuNTI4LTUuNzU3LTI2Ljk4Ny0xMy42NzljLTEuMTI2LDEuOTM2LTEuNzcxLDQuMTg0LTEuNzcxLDYuNTgxYzAsNC41NDIsMi4zMTIsOC41NTEsNS44MjQsMTAuODk4DQoJYy0yLjE0Ni0wLjA2OS00LjE2NS0wLjY1Ny01LjkzLTEuNjM4Yy0wLjAwMiwwLjA1NS0wLjAwMiwwLjExLTAuMDAyLDAuMTYyYzAsNi4zNDUsNC41MTMsMTEuNjM4LDEwLjUwNCwxMi44NA0KCWMtMS4xMDEsMC4yOTgtMi4yNTYsMC40NTctMy40NDksMC40NTdjLTAuODQ2LDAtMS42NjctMC4wNzgtMi40NjUtMC4yMzFjMS42NjcsNS4yLDYuNDk5LDguOTg2LDEyLjIzLDkuMDkNCgljLTQuNDgyLDMuNTEyLTEwLjEyOSw1LjYwNi0xNi4yNiw1LjYwNmMtMS4wNTUsMC0yLjA5Ni0wLjA2MS0zLjEyMi0wLjE4NGM1Ljc5NCwzLjcxNywxMi42NzYsNS44ODIsMjAuMDY3LDUuODgyDQoJYzI0LjA4MywwLDM3LjI1MS0xOS45NDksMzcuMjUxLTM3LjI0OWMwLTAuNTY2LTAuMDE0LTEuMTM0LTAuMDM5LTEuNjk0QzY0LjgzOCwyMC4wNjgsNjcuMDU4LDE3Ljc2NSw2OC44MTIsMTUuMTQxeiIvPg0KPC9zdmc+DQo=") 8px 8px no-repeat;
-//   background-size: 1em 1em;
-//   max-height: 580px;
- 
-//   /* Text */
-//   font: normal 12px/18px Helvetica, Arial, sans-serif;
-//   color: #333;
-//   white-space: nowrap;
-// }
- 
-// a.twitter-timeline:hover,
-// a.twitter-timeline:focus {
-//   background-color: #dedede;
-// }
- 
-// /* Color Highlight for keyboard navigation */
- 
-// a.twitter-timeline:focus {
-//   outline: none;
-//   border-color: #0089cb;
-// }
 
-// TWITTER CODE
-
-// blockquote.twitter-tweet {
-//   display: inline-block;
-//   padding: 16px;
-//   margin: 10px 0;
-//   max-width: 468px;
-//   border: #ddd 1px solid;
-//   border-top-color: #eee;
-//   border-bottom-color: #bbb;
-//   border-radius: 5px;
-//   box-shadow: 0 1px 3px rgba(0,0,0,0.15);
-//   font: bold 14px/18px Helvetica, Arial, sans-serif;
-//   color: #pink;
-// }
- 
-// blockquote.twitter-tweet p {
-//   font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
-//   margin: 0 5px 10px 0;
-// }
- 
-// blockquote.twitter-tweet a[href^="https://twitter.com"] {
-//   font-weight: normal;
-//   color: #666;
-//   font-size: 12px;
-// }
-
-
-// TWITTER CODE ends
 
 /*Media queries*/
 @media all and (min-width: 480px) {
@@ -742,7 +659,7 @@ nav.fixed {
   }
   /*Grid styles*/
   .Grid-item {
-    width: 48%;
+    width: 98%;
   }
 
     // .Navigation li, .nav_list_left, .nav_list_right {
@@ -757,8 +674,8 @@ nav.fixed {
   /*Global styles*/
   h1 {
     font-size: 60px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   /*Grid styles*/
   .Grid-item {
@@ -788,42 +705,6 @@ nav.fixed {
 
 
 // END FROM ROUNDHILL AND CHARLOTTES CSS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -866,11 +747,15 @@ and (max-width: $breakpointTabletMax)
     // margin-right: 13px;
     // color: green;
   }
-  .Navigation li, .nav_list_left, .nav_list_right {
-    display: block;
+  .Navigation li, .nav_list_left, .nav_list_right, .fixed, #buffer {
+    display: none;
   }
   .logo_wrapper {
     display: none;
+  }
+
+  .button {
+    display: block;
   }
 } 
 
@@ -923,11 +808,16 @@ and (max-width: $breakpointPhoneMax)
     // margin-right: 13px;
     // color: green;
   }
-  .Navigation li, .nav_list_left, .nav_list_right {
-    display: block;
+  .Navigation li, .nav_list_left, .nav_list_right, .fixed, #buffer {
+    display: none;
   }
+
   .logo_wrapper {
     display: none;
+  }
+
+  .button {
+    display: block;
   }
 
   // .navOpen {
@@ -1015,9 +905,9 @@ and (max-width: $breakpointPhoneMax)
   // }
 
 
-  body {
-      padding-top: 55px;
-    }
+  // body {
+  //     padding-top: 55px;
+  //   }
 
   .col-half {
     width: 100%;
