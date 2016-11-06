@@ -240,7 +240,7 @@ h3 {
   font-weight: 700;
 }
 .Container {
-  padding: 10px;
+  padding: 10px 20px;
 /*  max-width: 900px;*/
   max-width: 1100px;
   margin: 0 auto;
@@ -340,29 +340,13 @@ box {
 	position: absolute;
 }
 
-// .bg {
-//   background-image: url("/assets/img/pixel_weave_slate2.png");  
-//     @include blur (3px);
-//     position: absolute;
-//     top: 0px;
-//     bottom: 0px;
-//     right: 0px;
-//     left: 0px;
-// }
 
-// .sea {
-//   max-width: 96%;
-//   margin: 0 auto;
-//   text-align: center;
-//   background-image: url("/assets/img/pixel_weave_slate2.png");
-//   // background-color: rgba(00,119,170,0.4);
-//   z-index: 100;
-// }
 
 
 .content {
   z-index: 10;
   padding: 1.2em 2em;
+
 }
 
 footer {
@@ -508,7 +492,7 @@ nav.fixed {
   z-index: 5;
   background-image: url("/assets/img/pixel_weave_slate2.png");
   left: 0;
-  top: 0;
+  top: 90px;
   width: 100%;
 }
 /* below is test */
@@ -785,9 +769,9 @@ and (max-width: $breakpointTabletMax)
 and (max-width: $breakpointPhoneMax) 
 {
 
-  p {
-    line-height:1em;
-  }
+  // p {
+  //   line-height:1em;
+  // }
 
   nav {
     position: fixed;
@@ -967,9 +951,9 @@ and (max-width: $breakpointPhoneMax)
 and (max-width: $breakpointTinyMax) 
 {
 
-  p {
-    line-height:0.8em;
-  }
+  // p {
+  //   line-height:0.8em;
+  // }
 
   // .navHeadingWhenClose .menuTextClose {
   //     display: none;
