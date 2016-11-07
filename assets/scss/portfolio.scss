@@ -47,15 +47,17 @@ $bsColorLight: rgba(255, 255, 255, 0.8);
 
 /* Media Query Breakpoints
 ==================================== */
-$breakpointDesktopMin: 1280px;
+$breakpointDesktopMin: 1330px;
 $breakpointLaptopMax: ($breakpointDesktopMin - 1px);
-$breakpointLaptopMin: 1070px;
+$breakpointLaptopMin: 1185px;
 $breakpointTabletMax: ($breakpointLaptopMin - 1px);
-$breakpointTabletMin: 920px;
-$breakpointPhoneMax: ($breakpointTabletMin - 1px);
-$breakpointPhoneMin: 460px;
+$breakpointTabletMin: 970px;
+$breakpointPhabletMax: ($breakpointTabletMin - 1px);
+$breakpointPhabletMin: 700px;
+$breakpointPhoneMax: ($breakpointPhabletMin - 1px);
+$breakpointPhoneMin: 450px;
 $breakpointTinyMax: ($breakpointPhoneMin - 1px);
-
+$breakpointTinyMin: 350px;
 /* /END/ Media Query Breakpoints
 ==================================== */
 
@@ -240,7 +242,7 @@ h3 {
   font-weight: 700;
 }
 .Container {
-  padding: 10px 20px;
+  padding: 0px 20px;
 /*  max-width: 900px;*/
   max-width: 1100px;
   margin: 0 auto;
@@ -286,9 +288,10 @@ color: #f8f8f8;
 ========================================================================= */
 // .testy {color:red;}
 
-// .fa {
-//   color: red;
-// }
+.fa {
+  // color: red;
+margin: 9px 0px;
+}
 
 .mainNavClose .fa  {
   // color: $colorLight;
@@ -492,7 +495,6 @@ nav.fixed {
   z-index: 5;
   background-image: url("/assets/img/pixel_weave_slate2.png");
   left: 0;
-  top: 90px;
   width: 100%;
 }
 /* below is test */
@@ -503,6 +505,75 @@ nav.fixed {
 
 
 /* CODE BAR NAV END */
+
+
+
+
+.textbox { 
+  @include border-radius (3px); 
+  margin: auto;
+  max-width: 50%;
+  text-align: center;
+  padding: 12px 12px;
+  background-color: $colorLight;
+}
+
+.textbox p, .textbox h1, .textbox h2, .textbox h3 {
+  padding: 2px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.textbox p {
+  color: $colorDark;
+}
+
+  .main-nav li a {
+    font-size: 17px;
+    margin-left: 22px;
+    // margin-right: 13px;
+    // color: green;
+  }
+
+  .logo_wrapper {
+    display: none;
+  }
+
+nav, footer, button, .Card-item, .panel {
+  // border-style: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: $colorBorder;
+  @include box-shadow($bsTop, $bsLeft, $bsBlur, $bsColor, $inset: false);
+  z-index: 4;
+}
+
+
+/* blur.js sass
+==================================== */
+
+.circle{
+  margin:0 auto;
+  
+  -webkit-box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
+  -moz-box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
+  box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
+  
+  width:255px;
+  height:255px;
+  
+  -webkit-border-radius:127px;
+  -moz-border-radius:127px;
+  border-radius:127px;
+  
+  cursor:move;
+}
+
+
+
+/* blur.js sass ends
+==================================== */
+
 
 .Class-title {
   margin-bottom: 10px;
@@ -573,13 +644,20 @@ nav.fixed {
 }
 /*Pseudo classes for first-child and nth-child*/
 .social-link:first-child a {
+  border-color: $colorHighlight;
+  color: $colorHighlight;
+}
+.social-link:nth-child(2) a {
   border-color: #00ACED;
   color: #00ACED;
 }
-.social-link:nth-child(2) a {
+
+.social-link:nth-child(3) a {
   border-color: #1B85BD;
   color: #1B85BD;
 }
+
+
 .social-link a {
   padding: 10px 5px 5px 5px;
   // border: 2px solid #de1977;
@@ -593,19 +671,19 @@ nav.fixed {
   opacity: 0.6;
 }
 
-/*Grid styles*/
-.Grid {
-  overflow: hidden;
-}
-.Grid-item {
-  box-sizing: border-box;
-  margin: 1%;
-  float: left;
-  width: 100%;
-}
-.Grid-item:hover {
-  transform: scale(1.02);
-}
+// /*Grid styles*/
+// .Grid {
+//   overflow: hidden;
+// }
+// .Grid-item {
+//   box-sizing: border-box;
+//   margin: 1%;
+//   float: left;
+//   width: 100%;
+// }
+// .Grid-item:hover {
+//   transform: scale(1.02);
+// }
 
 // TWITTER CODE
 
@@ -633,67 +711,58 @@ nav.fixed {
   // margin-top: 8px;
 }
 
-
-
-/*Media queries*/
-@media all and (min-width: 480px) {
-  /*Component styles*/
-  .Card-info {
-    min-height: 200px;
-  }
-  /*Grid styles*/
-  .Grid-item {
-    width: 98%;
-  }
-
-    // .Navigation li, .nav_list_left, .nav_list_right {
-  //   display: block;
-  // }
-}
-@media all and (min-width: 592px) {
-  .Grid {
-    display: flex;  /*Flexbox container*/
-    flex-wrap: wrap;
-  }
-  /*Global styles*/
-  h1 {
-    font-size: 60px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-  /*Grid styles*/
-  .Grid-item {
-    width: auto;
-  }
-  .Grid-whole {
-    width: 98%;
-  }
-  .Grid-half {
-    width: 48%;
-  }
-  .Grid-third {
-    width: 31.3%;
-  }
-  .Grid-quarter {
-    width: 23%;
-  }
-  
   /*Component styles*/
   .social-link {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
   }
+
+/*Grid styles*/
+
+.Grid {
+    display: flex;  /*Flexbox container*/
+    flex-wrap: wrap;
+      li {
+    // text-shadow: 0px 1px $colorTextShadow;
+  }
 }
 
 
+.Grid {
+  overflow: hidden;
+}
+.Grid-item {
+  box-sizing: border-box;
+  margin: 1%;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
-// END FROM ROUNDHILL AND CHARLOTTES CSS
+  .Grid-item {
+    width: auto;
+  }
 
+.Grid-item:hover {
+  // transform: scale(1.02);
+}
 
+  .Grid-half {
+    width: 48%;
+  }
 
+   .Grid-whole {
+    width: 98%;
+  }
 
+  .Grid-third {
+    width: 31.3%;
+  }
 
+  .Grid-quarter {
+    width: 23%;
+  }
 
 
 /* LAPTOP SCREEN
@@ -706,11 +775,16 @@ and (max-width: $breakpointLaptopMax)
     font-size: 19px;
     margin-left: 31px;
     // margin-right: 0px;
-  // color: yellow;
+  color: orange;
   }
-  .Navigation li, .nav_list_left, .nav_list_right {
-    display: block;
-  }
+
+  h1 {color: orange;}
+
+  // .Navigation li, .nav_list_left, .nav_list_right {
+  //   display: block;
+  //   padding: 0 0;
+  // }
+
   .logo_wrapper {
     display: none;
   }
@@ -729,39 +803,74 @@ and (max-width: $breakpointTabletMax)
     font-size: 17px;
     margin-left: 22px;
     // margin-right: 13px;
-    // color: green;
+    color: yellow;
   }
-  .Navigation li, .nav_list_left, .nav_list_right, .fixed, #buffer {
-    display: none;
-  }
+  h1 {color: yellow;}
+
+  // .Navigation li, .nav_list_left, .nav_list_right {
+  //   display: block;
+  //   padding: 0 0;
+  // }
+
   .logo_wrapper {
     display: none;
   }
 
-  .button {
-    display: block;
+   .Grid-quarter {
+  width: 98%;
   }
+
 } 
 
 /* TABLET SCREEN END
 ==================================== */
 
-// @media screen and (min-width: $breakpointPhoneMax) and (max-width: $breakpointTabletMin) {
-//   .main-nav li a {
-//     font-size: 15px;
-//     color: green;
-//     margin-left: 13px;
-//     margin-right: 13px;
+/* PHABLET SCREEN
+==================================== */
+@media screen
+and (min-width: $breakpointPhabletMin)
+and (max-width: $breakpointPhabletMax) 
+{
+  .mainLogo a {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-right: 0.35rem;
+  }
+  .main-nav li a {
+    font-size: 0.75rem;
+    line-height: 1.3rem;
+    margin-left: .3rem;
+  }
+
+// .button {
+//     display: block;
 //   }
-// }
 
+//   .Navigation li, .nav_list_left, .nav_list_right {
+//     display: block;
+//     padding: 0 0;
+//   }
 
-.mainNavClose {
-  display: none;
+  .Grid-third {
+    width: 98%;
+  }
+  .Grid-quarter {
+    width: 98%;
+  }
+
+  h1 {color: green;}
+
+  .main-nav li a {
+    color: green;
+  }
 }
+/* PHABLET SCREEN END
+==================================== */
 
 
-/* PHONE/SIDENAV MODE
+/* PHONE LANDSCAPE
 ==================================== */
 
 @media screen
@@ -769,13 +878,9 @@ and (max-width: $breakpointTabletMax)
 and (max-width: $breakpointPhoneMax) 
 {
 
-  // p {
-  //   line-height:1em;
-  // }
-
   nav {
     position: fixed;
-    top: 0px;
+    top: 80px;
     bottom: 0px;
     left: 0px;
     width: 260px;
@@ -792,6 +897,7 @@ and (max-width: $breakpointPhoneMax)
     // margin-right: 13px;
     // color: green;
   }
+
   .Navigation li, .nav_list_left, .nav_list_right, .fixed, #buffer {
     display: none;
   }
@@ -804,104 +910,13 @@ and (max-width: $breakpointPhoneMax)
     display: block;
   }
 
-  // .navOpen {
-  //   transform: translate3d(0px, 0, 0);
-  //   -webkit-transform: translate3d(0px, 0, 0);
-  //   -moz-transform: translate3d(0px, 0, 0);
-  //   -ms-transform: translate3d(0px, 0, 0);
-
-  //   transition: transform 0.8s ease;    
-  //   -webkit-transition: transform 0.8s ease;    
-  //   -moz-transition: transform 0.8s ease;    
-  //   -ms-transition: transform 0.8s ease;
-  // }
-
-  // .navClose {
-  //   transform: translate3d(-290px, 0, 0);
-  //   -webkit-transform: translate3d(-290px, 0, 0);
-  //   -moz-transform: translate3d(-290px, 0, 0);
-  //   -ms-transform: translate3d(-290px, 0, 0);
-
-  //   transition: transform 0.3s ease;
-  //   -webkit-transition: transform 0.3s ease;
-  //   -moz-transition: transform 0.3s ease;
-  //   -ms-transition: transform 0.3s ease;
-  // }
-
-  // .navHeadingWhenOpen {
-  //   transform: translate3d(69px, 0, 0);
-  //   -webkit-transform: translate3d(69px, 0, 0);
-  //   -moz-transform: translate3d(69px, 0, 0);
-  //   -ms-transform: translate3d(69px, 0, 0);
-    
-  //   transition: transform 0.8s ease;
-  //   -webkit-transition: transform 0.8s ease;
-  //   -moz-transition: transform 0.8s ease;
-  //   -ms-transition: transform 0.8s ease;
-  // }
-
-  // .navHeadingWhenClose {
-  //   transform: translate3d(0px, 0, 0);
-  //   -webkit-transform: translate3d(0px, 0, 0);
-  //   -moz-transform: translate3d(0px, 0, 0);
-  //   -ms-transform: translate3d(0px, 0, 0);
-    
-  //   transition: transform 0.3s ease;
-  //   -webkit-transition: transform 0.3s ease;
-  //   -moz-transition: transform 0.3s ease;
-  //   -ms-transition: transform 0.3s ease;
-  // }
-
-  // .main-nav li {
-  //   display: block;
-  //   min-height: 45px;
-  //   a {
-  //     font-size: 20px;
-  //     display: block;
-  //     margin-right: 20px;
-  //     // color: blue;
-  //   }
-  // }
-
-  // .main-logo {
-  //   display: block;
-  //   float: none;
-  // }
-
-  // .mobileWrap {
-  //   height: 60px;
-  //   width: 100%;
-  //   display: block;
-  //   max-height: 300px;
-  //   padding: 20px 15px;
-  //   background-color: red;
-  // }
-
-  // .mainNavClose {
-  //   display: block;
-  //   position: fixed;
-  //   top: 0px;
-  //   left: 0px;
-  //   width: 100%;
-  //   height: 55px;
-  //   // background-color: $colorMainLight;
-  //   // border: none;
-  // }
-
-
-  // body {
-  //     padding-top: 55px;
-  //   }
-
-  .col-half {
-    width: 100%;
+  .Grid-half {
+    width: 98%;
   }
 
-
-  // .main-wrapper {
-  // // width: 90%;
-  // // margin: auto;
-  // }
+  .Grid-third {
+    width: 98%;
+  }
 
   .myImage:hover {
     width: 90%;
@@ -909,159 +924,95 @@ and (max-width: $breakpointPhoneMax)
   }
 
 
-//   .navHeadingWhenClose .menuTextClose {
-//       display: none;
-//     }
-
-//   .navHeadingWhenClose .menuTextMenu {
-//       display: block;
-//     }
-
-//   .navHeadingWhenOpen .menuTextClose {
-//       display: none;
-//     }
-
-// // for if I want there to always be an X on the nav when it's open
-//   // .navHeadingWhenOpen .menuTextClose {
-//   //     display: block;
-//   //   }
-
-//   .navHeadingWhenOpen .menuTextMenu {
-//       display: block;
-//     }
-
-	// footer {
-	// 	position: static;
-	// }
-
 .content {
     padding: 1.0em 1.4em;
 }
-
 
   .panel {
     padding: 0.9em;
     // margin: 1.0em;
     }
 
-} 
-
-
-@media screen
-and (max-width: $breakpointTinyMax) 
-{
-
-  // p {
-  //   line-height:0.8em;
-  // }
-
-  // .navHeadingWhenClose .menuTextClose {
-  //     display: none;
-  //   }
-
-  // .navHeadingWhenClose .menuTextMenu {
-  //     display: block;
-  //   }
-
-  // .navHeadingWhenOpen .menuTextClose {
-  //     display: block;
-  //   }
-
-  // .navHeadingWhenOpen .menuTextMenu {
-  //     display: none;
-  //   }
-
-.content {
-    padding: 0.6em 0.7em;
-}
-
-  .main-nav li a {
-    font-size: 17px;
-    margin-left: 22px;
-    // margin-right: 13px;
-    // color: green;
-  }
   .Navigation li, .nav_list_left, .nav_list_right {
     display: block;
   }
-  .logo_wrapper {
-    display: none;
+
+}
+
+
+
+/* PHONE LANDSCAPE END
+==================================== */
+
+
+
+
+
+
+/* WIDE PHONE PORTRAIT
+==================================== */
+
+@media screen
+// and (min-width: $breakpointTinyMax)
+and (max-width: $breakpointPhoneMin) 
+{
+
+  .button {
+    display: block;
   }
 
-}
-
-
-
-/* PHONE/SIDENAV MODE END
-==================================== */
-
-/* nav stuff from liz-site
-==================================== */
-
-.textbox { 
-  @include border-radius (3px); 
-  margin: auto;
-  max-width: 50%;
-  text-align: center;
-  padding: 12px 12px;
-  background-color: $colorLight;
-}
-
-.textbox p, .textbox h1, .textbox h2, .textbox h3 {
-  padding: 2px 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.textbox p {
-  color: $colorDark;
-}
-
-  .main-nav li a {
-    font-size: 17px;
-    margin-left: 22px;
-    // margin-right: 13px;
-    // color: green;
+  .Navigation li, .nav_list_left, .nav_list_right {
+    display: block;
+    padding: 0 0;
   }
 
-  .logo_wrapper {
-    display: none;
+  /*Component styles*/
+  .Card-info {
+    min-height: 200px;
   }
 
-nav, footer, button, .Card-item, .panel {
-  // border-style: none;
-  border-style: solid;
-  border-width: 1px;
-  border-color: $colorBorder;
-  @include box-shadow($bsTop, $bsLeft, $bsBlur, $bsColor, $inset: false);
-  z-index: 4;
+  /*Grid styles*/
+  .Grid-item {
+    width: 98%;
+  }
+
+
+  h1 {color: indigo;}  
+
 }
 
-
-/* blur.js sass
+/* WIDE PHONE PORTRAIT END
 ==================================== */
 
-.circle{
-	margin:0 auto;
-	
-	-webkit-box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
-	-moz-box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
-	box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
-	
-	width:255px;
-	height:255px;
-	
-	-webkit-border-radius:127px;
-	-moz-border-radius:127px;
-	border-radius:127px;
-	
-	cursor:move;
+/* PHONE PORTRAIT
+==================================== */
+@media screen
+and (max-width: $breakpointTinyMin) 
+{
+  h1 {
+      font-size: 32px;
+      // color: violet;
+  }
+
+  .wrapper, .mainNavClose 
+  {
+    width: $breakpointTinyMin;
+  }
+    .Navigation li, .nav_list_left, .nav_list_right {
+    display: block;
+  }
+
+  .button {
+    display: block;
+  }
+
+
+  h1 {color: violet;}
+
 }
-
-
-
-/* blur.js sass ends
+/* PHONE PORTRAIT END
 ==================================== */
+
 
 
 

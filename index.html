@@ -21,6 +21,7 @@
     <script type='text/javascript' src='js/blur.min.js'></script>
     <script src="bower_components/modernizr/modernizr.js"></script>
 	<link rel="stylesheet" type="text/css" media="all" href="/assets/css/portfolio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
@@ -28,43 +29,10 @@
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js'></script>
 	<script type='text/javascript' src='js/blur.min.js'></script>
   
-<!-- 	<style type='text/css'>
-		body{
-			margin:0;padding:0;
-			color:#fff;
-			font-family:arial;
-			text-shadow:0 2px 2px #000;
-			
-			background:top left no-repeat;
-			background-image:url('assets/img/pencils.jpeg');
-			
-		}
-		.circle{
-			margin:0 auto;
-			
-			-webkit-box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
-			-moz-box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
-			box-shadow:0 2px 2px #000, 0 1px 0 #fff inset;
-			
-			width:255px;
-			height:255px;
-			
-			-webkit-border-radius:127px;
-			-moz-border-radius:127px;
-			border-radius:127px;
-			
-			cursor:move;
-		}
-	</style> -->
 </head>
 <body>
-<!-- <div class="glass-border gb-left">dfdf</div><div class="glass-border gb-right">dfdf</div> -->
-<!--    <div class="bg"> -->
-<!--     <div class="sea"> -->
 <div class="header">
 	<div class="container">
-<!-- 		<div class="row">
-			<div class="col-md-12"> -->
     	<div class="button"><h1>MENU</h1>
     	</div>
     	<nav class="fixed">
@@ -85,21 +53,12 @@
             </ul>
     	    <a href="#home" class="logo_wrapper scroll-top back-to-top"><img src="/assets/img/logo.png" ></a>
     		<ul class=" Navigation nav_list_right">
-    			<li>
-    				<span><i class="fa fa-cog fa-75pc"></i></span>
-    				<a href="#contact" class="scroll-link" data-id="contact">Contact</a>
-    				<span><i class="fa fa-cog fa-75pc"></i></span>
-                </li>
-                    <li><a href="#testimonials" class="scroll-link" data-id="testimonials">Testimonials</a>
-                    <span><i class="fa fa-cog fa-75pc"></i></span>
-                </li>
                 <li><a href="#twitterbots" class="scroll-link" data-id="twitterbots">Twitterbots</a>
                    <span><i class="fa fa-cog fa-75pc"></i></span>
                 </li>
-                <li><a href="#socialmedia" class="scroll-link" data-id="socialmedia">Social Media</a>
-                   <span><i class="fa fa-cog fa-75pc"></i></span>
-                </li>
-                <li><a href="https://www.linkedin.com/in/clara-alder">LinkedIn FONTAWESOME<i class="fa fa-linkedin fa-lg"></i></a></li>
+                <li><a href="mailto:clara.alder.uk@gmail.com"><i class="fa fa-envelope fa-lg"></i><span class="email-icon"></span></a></li>
+                <li><a href="https://twitter.com/claraalder"><i class="fa fa-twitter fa-lg"></i><span class="twitter-icon"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/clara-alder"><i class="fa fa-linkedin fa-lg"></i><span class="linkedin-icon"></span></a></li>
     		</ul>
         </nav>
     </div>
@@ -270,8 +229,9 @@ MAIN HTML BEGINS
     <div id="socialmedia">
         <h2>Social Media</h2>
         <ul class="List-noBullets">
+            <li class="Social-link"><a class="Social-link" href="mailto:clara.alder.uk@gmail.com">Email</a></li>
             <li class="Social-link"><a class="Social-link" href="https://twitter.com/claraalder">Twitter</a></li>
-            <li class="Social-link"><a class="Social-link" href="https://uk.linkedin.com/in/clara-alder-0832b823">LinkedIn</a></li>
+            <li class="Social-link"><a class="Social-link" href="https://uk.linkedin.com/in/clara-alder-0832b823">LinkedIn</a></li>            
         </ul>
     </div>
 
@@ -365,7 +325,7 @@ log: function() { }
         // });
 
         $(document).ready(function(){               
-            $('.circle, nav, button, textbox, footer, .social-link, .Card-item, .panel').blurjs({
+            $('nav, button, textbox, footer, .social-link, .Card-item, .panel').blurjs({
           source: 'body',
                 draggable: false,
                 overlay: 'rgba(255,255,255,0.3)',
