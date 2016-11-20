@@ -173,8 +173,9 @@ a:hover {
 }
 p {
   font: 95% $pFont;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  margin: 12px;
+  // margin-top: 10px;
+  // margin-bottom: 5px;
   color: $colorDark;
   line-height: 1.5em;
  // below is mine
@@ -689,7 +690,7 @@ nav, footer, button, .Card-item, .panel {
 
 .Feed-height {
   // max-height: 615px;
-  max-height: 714px;
+  // max-height: 746px;
 }
 
 .timeline-Widget {
