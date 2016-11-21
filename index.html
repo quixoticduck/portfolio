@@ -33,7 +33,8 @@
 <body>
 <div class="header">
 	<div class="container">
-    	<div class="button"><h1>MENU</h1>
+    	<div class="button">
+            <h1>MENU</h1>
     	</div>
     	<nav class="fixed">
     		<ul class="Navigation nav_list_left">
@@ -79,33 +80,10 @@ MAIN HTML BEGINS
     <img title="" alt="Clara Alder" class="Photo" src="assets/img/claraalder.jpg" />
     <p>Hey, I'm Clara. I'm a front-end developer living in Brighton. It is important to me for a website to work well with the content, have high usability and a nice design aesthetic.</p>
     <p>When I'm not at work, I enjoy playing musical instruments and creating computer games.  I currently play football and enjoy team sports and rock climbing. Also, I have recently begun teaching myself how to sew.</p>
-<!--     <div class="panel">
-    <h3>Lorem Ipsum</h3>
-    <p>Lorem Ipsum</p>
-        <p><a href="/about.html">Lorem Ipsum</a><br />Lorem Ipsum</p>
-    </div> -->
+    <p>I have been attending <a href="https://codebar.io/brighton">Codebar</a>—a non-profit initiative which runs programming workshops--for two years as both a student, and, more recently, as a tutor. I have enjoyed both teaching and learning. I love that the web development industry is constantly evolving and that there is a culture of sharing new knowledge. I also love that web development mixes technical work with creative design, and can be independent or collaborative.</p>
+    <p>Due to Brighton’s great technology scene I have attended multiple conferences, talks and <a href="http://britual.eu-1.evennode.com/">game jams.</a></p>
     </div>
 
-<!--     <ul class="Cards Grid">
-        <li class="Grid-item Grid-whole">
-            <h3>Lorem Ipsum</h3>
-            <p>Nullam ultrices ex leo. Cras sit amet urna nec enim varius facilisis. Proin vitae tortor sit amet massa gravida rutrum in et magna. </p>
-            <p><a href="/about.html">Lorem Ipsum A</a><br />Lorem Ipsum B</p>
-        </li>
-    </ul> -->
-
-<!--     <ul class="Cards Grid">
-        <li class="Grid-item Grid-half">
-            <h3>Lorem Ipsum</h3>
-            <p>Nullam ultrices ex leo. Aliquam rhoncus ullamcorper massa. Proin vitae tortor sit amet massa gravida rutrum in et magna. </p>
-        </li>
-        <li class="Grid-item Grid-half">
-            <h3>Lorem Ipsum</h3>
-            <p>Aliquam rhoncus ullamcorper massa.  Proin vitae tortor sit amet massa gravida rutrum in et magna. </p>
-            <p><a href="/about.html">Lorem Ipsum E </a>
-        </li>
-    </ul>
- -->
 
 <!-- SECTION BREAK -->
     <div id="websitework">
@@ -210,7 +188,7 @@ MAIN HTML BEGINS
 <!-- SECTION BREAK -->  
     <div id="twitterbots">
         <h2>Twitterbots</h2>
-        <p>These Twitterbots were created with <a href="www.cheapbotsdonequick.com">Cheap Bots, Done Quick!</a> They're coded in a language called Tracery. Not created for any particular reason other than my own amusement, and to experiment with something new.</p>
+        <p>These Twitterbots were created with <a href="http://cheapbotsdonequick.com">Cheap Bots, Done Quick!</a> They're coded in a language called Tracery. Not created for any particular reason other than my own amusement, and to experiment with something new.</p>
         <ul class="Cards Grid">
             <li class="Card-item Grid-item Grid-half Feed-height">
                 <div class="Card-info">
@@ -255,14 +233,14 @@ $(window).scroll(function (event) {
     // what the y position of the scroll is
     var y = $(window).scrollTop();
     // whether that's below the form
-    if (y >= 01) {
-    // if so, add the shrink class
-        $thisdiv.addClass('shrink');
-        $buffer.addClass('shrink');
-    } else {
-        $thisdiv.removeClass('shrink');
-        $buffer.removeClass('shrink');
-    }
+    // if (y >= 01) {
+    // // if so, add the shrink class
+    //     $thisdiv.addClass('shrink');
+    //     $buffer.addClass('shrink');
+    // } else {
+    //     $thisdiv.removeClass('shrink');
+    //     $buffer.removeClass('shrink');
+    // }
 });
 var isMenuDown = false;
 $('.button').on('click', function(){
@@ -328,7 +306,7 @@ log: function() { }
         // });
 
         $(document).ready(function(){               
-            $('nav, button, textbox, footer, .social-link, .Card-item, .panel').blurjs({
+            $('nav, textbox, footer, .social-link, .Card-item, .panel, .button').blurjs({
           source: 'body',
                 draggable: false,
                 overlay: 'rgba(255,255,255,0.3)',
