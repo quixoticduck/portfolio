@@ -450,7 +450,7 @@ footer {
 // }
 
 #buffer{
-    height: 50px;
+    height: 70px;
     // background-color: #266b7c;
     transition: .6s;
 }
@@ -921,6 +921,7 @@ and (max-width: $breakpointPhoneMax)
     border: none;  
     line-height: 1;
     z-index: 200;
+    cursor: pointer;
   }
 
   #buffer {
