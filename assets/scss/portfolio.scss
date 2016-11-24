@@ -224,6 +224,12 @@ h3 {
   text-align: center;
 }
 
+img {max-width: 100%;}
+
+.mobile {
+  display: none;
+  width: 95%;
+}
 
 /*Global styles*/
 .header {
@@ -260,6 +266,11 @@ h3 {
 .List-noBullets {
   list-style: none;
   padding-left: 0;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
 }
 
 // #nav-id {
@@ -470,7 +481,7 @@ footer {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
-  padding:10px 0px 10px 15px;
+  padding:10px 0px 10px 0px;
   margin: 0px;
 }
 
@@ -743,9 +754,9 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     width: auto;
   }
 
-.Grid-item:hover {
-  // transform: scale(1.02);
-}
+  .Grid-item:hover {
+    // transform: scale(1.02);
+  }
 
   .Grid-half {
     width: 48%;
@@ -763,6 +774,9 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     width: 23%;
   }
 
+.mobile {
+  display: none;
+}
 
 /* LAPTOP SCREEN
 ==================================== */
@@ -787,6 +801,12 @@ and (max-width: $breakpointLaptopMax)
   .logo_wrapper {
     display: none;
   }
+
+  .mobile {
+    display: none;
+    width: 95%;
+  }
+
 } 
 
 /* LAPTOP SCREEN END
@@ -819,6 +839,11 @@ and (max-width: $breakpointTabletMax)
   width: 98%;
   }
 
+    .mobile {
+    display: none;
+    width: 95%;
+  }
+
 } 
 
 /* TABLET SCREEN END
@@ -844,7 +869,6 @@ and (max-width: $breakpointPhabletMax)
   }
 
 
-
   .Grid-third {
     width: 98%;
   }
@@ -857,6 +881,15 @@ and (max-width: $breakpointPhabletMax)
   .main-nav li a {
     color: green;
   }
+
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
 }
 /* PHABLET SCREEN END
 ==================================== */
@@ -957,17 +990,18 @@ and (max-width: $breakpointPhoneMax)
     padding-bottom: 0px;
   }
 
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
 }
-
-
 
 /* PHONE LANDSCAPE END
 ==================================== */
-
-
-
-
-
 
 /* WIDE PHONE PORTRAIT
 ==================================== */
@@ -999,6 +1033,14 @@ and (max-width: $breakpointPhoneMin)
 
   h1 {color: indigo;}  
 
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
 }
 
 /* WIDE PHONE PORTRAIT END
@@ -1029,10 +1071,17 @@ and (max-width: $breakpointTinyMin)
 
   h1 {color: violet;}
 
+  .mobile {
+    display: block;
+  }
+
+  .desktop {
+    display: none;
+  }
+
 }
 /* PHONE PORTRAIT END
 ==================================== */
-
 
 
 

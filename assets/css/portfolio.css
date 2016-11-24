@@ -1,1 +1,926 @@
-@import 'https://fonts.googleapis.com/css?family=Open-Sans|Roboto-Slab';#990055 #669900 #0077AA #F4F5F6 #F0F1F2 #4D4E53 ol,ul{margin:0;padding:0;list-style:none}@font-face{font-family:'hellena-script';src:url("../fonts/hellena-script/Hellena Script-webfont.eot");src:url("../fonts/hellena-script/Hellena Script-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/hellena-script/Hellena Script-webfont.woff") format("woff"),url("../fonts/hellena-script/Hellena Script-webfont.ttf") format("truetype"),url("../fonts/hellena-script/Hellena Script-webfont.svg#webfont") format("svg")}html{padding:0px;margin:0px}body{font:100% "Open Sans",Helvetica,sans-serif;background-image:url("../img/white_grid_paper-background_pattern.jpg");background-repeat:repeat;padding:0px;margin:0px;font-family:'Lato', sans-serif;font-size:18px;line-height:1.4;color:#333333}ul{margin-top:0;margin-bottom:0;list-style:none}a{color:#de1977;text-decoration:none;line-height:34px}a:hover{color:#63186C}p{font:95% "Open Sans",Helvetica,sans-serif;margin:12px;color:#222;line-height:1.5em;text-align:left}h1{font-family:"Roboto Slab",sans-serif;color:#222;font-weight:normal;font-size:35px;margin-top:10px;margin-bottom:20px;text-align:center}h2{font-family:"Roboto Slab",sans-serif;color:#B5CA15;font-weight:normal;line-height:1.7;display:inline;text-align:center;margin:auto}.textbox h2{color:#222}h3{font-family:"Open Sans",Helvetica,sans-serif;color:#0093A3;margin:12px;line-height:43px;display:block;font-weight:bold;margin-top:10px;margin-bottom:10px;text-align:center}.Navigation{list-style:none;padding-left:0}.Navigation li{padding-right:15px;display:inline-block}.Navigation li a{font-size:17px;color:#906}.Navigation li a:hover{text-decoration:underline}.Navigation-current{color:#B5CA15;font-weight:700}.container{padding:0px 20px;max-width:1100px;margin:0 auto;text-align:center}.List-noBullets{list-style:none;padding-left:0}a:link{text-decoration:none;-webkit-transition:.4s;-moz-transition:.4s;-ms-transition:.4s;transition:.4s;color:#906}a:visited{text-decoration:none;color:#906}a:hover{-webkit-transition:.5s;-moz-transition:.5s;-ms-transition:.5s;transition:.5s;color:#0093A3}a:active{text-decoration:none;color:#f8f8f8}.fa{margin:9px 0px}.mainNavClose .fa{margin-left:20px;margin-right:-20px;float:left}.button:focus{outline:none}.wrapper{min-height:100%}.blur{-webkit-filter:blur(10px)}box{-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;border-radius:10px;margin:auto;background-color:#222}.pencils{width:700px;-webkit-transition:.4s;-moz-transition:.4s;-ms-transition:.4s;transition:.4s}.pencils:hover{width:500px;filter:blur(5px);-webkit-filter:blur(5px)}.textbox{width:450px;height:200px;background-color:white;-webkit-filter:opacity(0.3);-webkit-filter:blur(1px);z-index:0;position:absolute}.content{z-index:10;padding:1.2em 2em}footer{background-color:#EFEFE4;color:#FF696D;text-align:center;padding:1rem;height:32px;bottom:0px;left:0px;right:0px;margin-top:45px}footer a{padding:20px 0px}.navbar.affix{position:fixed;z-index:10000;top:0;left:0;width:100%;border:0;margin-top:0;padding-top:0px;border-radius:0;animation:fadeIn 0.5s ease-in;-webkit-animation:fadeIn 0.5s}.affix-placeholder{display:none}.navbar.affix+.affix-placeholder{display:block;visibility:hidden}.button{display:none;color:#f8f8f8;vertical-align:top;font-size:27px;font-weight:300;text-align:center;position:absolute}.button span{margin:0 30px;display:inline-block;color:#419EA7}.logo_wrapper{width:162px;height:162px;margin-top:12px;margin-bottom:0px;display:inline-block;transition:.6s;vertical-align:middle}#buffer{height:70px;transition:.6s}.logo_wrapper img{height:100%;width:auto;overflow:none !important}.nav_list_left{list-style:none;display:inline-block;vertical-align:middle;padding:10px 0px 10px 15px;margin:0px}.nav_list_right{list-style:none;display:inline-block;vertical-align:middle;padding:10px 0px;margin:0px}.header .fa{-webkit-text-stroke:1px #ffffff}.header .fa-cog{font-size:.8em;display:none}.header .fa-linkedin,.fa-facebook{vertical-align:0px}.break{border-bottom:solid 10px #266b7c}nav{text-align:center;text-transform:uppercase}nav.fixed{position:fixed;z-index:5;background-image:url("/assets/img/pixel_weave_slate2.png");left:0;width:100%}.textbox{-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;border-radius:3px;margin:auto;max-width:50%;text-align:center;padding:12px 12px;background-color:#EFEFE4}.textbox p,.textbox h1,.textbox h2,.textbox h3{padding:2px 0px;margin-top:0px;margin-bottom:0px}.textbox p{color:#222}.main-nav li a{font-size:17px;margin-left:22px}.logo_wrapper{display:none}nav,footer,.Card-item,.panel,.social-link,.button{border-style:solid;border-width:1px;border-color:#D9D9D9;-webkit-box-shadow:1px 2px 6px rgba(0,0,0,0.4);-moz-box-shadow:1px 2px 6px rgba(0,0,0,0.4);box-shadow:1px 2px 6px rgba(0,0,0,0.4);z-index:4}.Class-title{margin-bottom:10px}.Photo{border-radius:300px;max-width:200px;margin:10px auto 20px auto;display:block}.thumby{max-width:100%}.Cards{padding:0;margin:0}.panel{padding:1.2em;margin-bottom:20px;background-color:#EFEFE4}.Card-item{list-style:none;margin-bottom:20px;background-color:#EFEFE4}.Card-title{padding:0px 10px 7px 10px;display:block;align-items:flex-start}.Card-info{font-size:16px;min-height:100px;padding:20px}.Card-info .Card-title{font-weight:700}.Card-image{max-width:93%;margin:auto}.social-link{display:inline-block;margin-left:5px;margin-right:5px}.social-link li{margin:15px}.social-link:first-child a{border-color:#906;color:#906}.social-link:nth-child(2) a{border-color:#00ACED;color:#00ACED}.social-link:nth-child(3) a{border-color:#1B85BD;color:#1B85BD}.social-link a{padding:10px 5px 5px 5px;display:inline-block;margin:10px;min-width:130px;font-size:15px;text-align:center}.social-link a:hover{opacity:0.6}.timeline-Widget{max-height:714px}#twitter-widget-0,#twitter-widget-1{max-height:600px}.Grid{display:flex;flex-wrap:wrap}.Grid{overflow:hidden}.Grid-item{box-sizing:border-box;margin:1%;float:left;width:100%;margin-bottom:20px}.Grid-item{width:auto}.Grid-half{width:48%}.Grid-whole{width:98%}.Grid-third{width:31.3%}.Grid-quarter{width:23%}@media screen and (min-width: 1185px) and (max-width: 1329px){.main-nav li a{font-size:19px;margin-left:31px;color:orange}h1{color:orange}.logo_wrapper{display:none}}@media screen and (min-width: 970px) and (max-width: 1184px){.main-nav li a{font-size:17px;margin-left:22px;color:yellow}h1{color:yellow}.logo_wrapper{display:none}.Grid-quarter{width:98%}}@media screen and (min-width: 755px) and (max-width: 969px){.mainLogo a{font-size:1.1rem;line-height:1.3rem;margin-top:0px;margin-bottom:15px;margin-right:0.35rem}.main-nav li a{font-size:0.75rem;line-height:1.3rem;margin-left:.3rem}.Grid-third{width:98%}.Grid-quarter{width:98%}h1{color:green}.main-nav li a{color:green}}@media screen and (max-width: 754px){nav{position:fixed;top:55px;bottom:0px;left:0px;width:260px;max-height:279px;padding:20px 0px}.main-nav li a{font-size:17px;margin-left:22px;color:blue}h1{color:blue}.fixed,#buffer{display:none}.Navigation li{padding-left:0px;padding-right:0px}.logo_wrapper{display:none}.button{display:block;position:fixed;top:0px;left:0px;width:100%;height:55px;border:none;line-height:1;z-index:200;cursor:pointer}#buffer{display:inline-block;height:50px}.Grid-half{width:98%}.Grid-third{width:98%}.myImage:hover{width:90%;display:none}.content{padding:1.0em 1.4em}.panel{padding:0.9em}.Navigation li,.nav_list_left,.nav_list_right{display:block;padding-top:0px;padding-bottom:0px}}@media screen and (max-width: 450px){.button{display:block}.Navigation li,.nav_list_left,.nav_list_right{display:block;padding:0 0}.Card-info{min-height:200px}.Grid-item{width:98%}h1{color:indigo}}@media screen and (max-width: 350px){h1{font-size:32px}.wrapper,.mainNavClose{width:350px}.Navigation li,.nav_list_left,.nav_list_right{display:block}.button{display:block}h1{color:violet}}
+/* MIXINS
+==================================== */
+/* MIXINS END
+==================================== */
+/* Media Query Breakpoints
+==================================== */
+/* /END/ Media Query Breakpoints
+==================================== */
+/* Layout Element Colors
+==================================== */
+@import 'https://fonts.googleapis.com/css?family=Open-Sans|Roboto-Slab';
+/* line 76, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+#990055
+#669900
+#0077AA
+#F4F5F6
+#F0F1F2
+#4D4E53
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* FONT STUFF
+==================================== */
+@font-face {
+  font-family: 'hellena-script';
+  src: url("../fonts/hellena-script/Hellena Script-webfont.eot");
+  src: url("../fonts/hellena-script/Hellena Script-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hellena-script/Hellena Script-webfont.woff") format("woff"), url("../fonts/hellena-script/Hellena Script-webfont.ttf") format("truetype"), url("../fonts/hellena-script/Hellena Script-webfont.svg#webfont") format("svg");
+}
+
+/* FONT STUFF END
+==================================== */
+/*Fonts*/
+/* line 141, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 146, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+body {
+  font: 100% "Open Sans", Helvetica, sans-serif;
+  background-image: url("../img/white_grid_paper-background_pattern.jpg");
+  background-repeat: repeat;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333333;
+}
+
+/* line 161, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/* line 166, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+a {
+  color: #de1977;
+  text-decoration: none;
+  line-height: 34px;
+}
+
+/* line 171, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+a:hover {
+  color: #63186C;
+}
+
+/* line 174, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+p {
+  font: 95% "Open Sans", Helvetica, sans-serif;
+  margin: 12px;
+  color: #222222;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+/* line 188, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+h1 {
+  font-family: "Roboto Slab", sans-serif;
+  color: #222222;
+  font-weight: normal;
+  font-size: 35px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* line 199, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+h2 {
+  font-family: "Roboto Slab", sans-serif;
+  color: #B5CA15;
+  font-weight: normal;
+  line-height: 1.7;
+  display: inline;
+  text-align: center;
+  margin: auto;
+}
+
+/* line 211, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.textbox h2 {
+  color: #222222;
+}
+
+/* line 215, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+h3 {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #0093A3;
+  margin: 12px;
+  line-height: 43px;
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* line 227, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 229, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.mobile {
+  display: none;
+  width: 95%;
+}
+
+/*Global styles*/
+/* line 238, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Navigation {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 242, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Navigation li {
+  padding-right: 15px;
+  display: inline-block;
+}
+
+/* line 246, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Navigation li a {
+  font-size: 17px;
+  color: #990066;
+}
+
+/* line 250, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Navigation li a:hover {
+  text-decoration: underline;
+}
+
+/* line 253, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Navigation-current {
+  color: #B5CA15;
+  font-weight: 700;
+}
+
+/* line 258, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.container {
+  padding: 0px 20px;
+  /*  max-width: 900px;*/
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 266, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.List-noBullets {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* line 271, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+/* Link stylings
+========================================================================= */
+/* line 287, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+a:link {
+  text-decoration: none;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
+  color: #990066;
+}
+
+/* line 294, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+a:visited {
+  text-decoration: none;
+  color: #990066;
+}
+
+/* line 300, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+a:hover {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  color: #0093A3;
+}
+
+/* line 306, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+a:active {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+/* /END/ Link stylings
+========================================================================= */
+/* line 316, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.fa {
+  margin: 9px 0px;
+}
+
+/* line 321, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.mainNavClose .fa {
+  margin-left: 20px;
+  margin-right: -20px;
+  float: left;
+}
+
+/* line 328, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.button:focus {
+  outline: none;
+}
+
+/* line 333, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.wrapper {
+  min-height: 100%;
+}
+
+/* line 343, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.blur {
+  -webkit-filter: blur(10px);
+}
+
+/* line 347, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: #222222;
+}
+
+/* line 353, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.pencils {
+  width: 700px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* line 357, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.pencils:hover {
+  width: 500px;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+/* line 363, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.textbox {
+  width: 450px;
+  height: 200px;
+  background-color: white;
+  -webkit-filter: opacity(0.3);
+  -webkit-filter: blur(1px);
+  z-index: 0;
+  position: absolute;
+}
+
+/* line 376, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.content {
+  z-index: 10;
+  padding: 1.2em 2em;
+}
+
+/* line 382, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+footer {
+  background-color: #EFEFE4;
+  color: #FF696D;
+  text-align: center;
+  padding: 1rem;
+  height: 32px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 45px;
+}
+
+/* line 397, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+footer a {
+  padding: 20px 0px;
+}
+
+/* CODEBAR NAV */
+/* line 406, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.navbar.affix {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border: 0;
+  margin-top: 0;
+  padding-top: 0px;
+  border-radius: 0;
+  animation: fadeIn 0.5s ease-in;
+  -webkit-animation: fadeIn 0.5s;
+}
+
+/* line 419, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.affix-placeholder {
+  display: none;
+}
+
+/* line 422, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.navbar.affix + .affix-placeholder {
+  display: block;
+  visibility: hidden;
+}
+
+/* line 427, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.button {
+  display: none;
+  color: #f8f8f8;
+  vertical-align: top;
+  font-size: 27px;
+  font-weight: 300;
+  text-align: center;
+  position: absolute;
+}
+
+/* line 439, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.button span {
+  margin: 0 30px;
+  display: inline-block;
+  color: #419EA7;
+}
+
+/* line 445, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.logo_wrapper {
+  width: 162px;
+  height: 162px;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  display: inline-block;
+  transition: .6s;
+  vertical-align: middle;
+}
+
+/* line 463, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+#buffer {
+  height: 70px;
+  transition: .6s;
+}
+
+/* line 474, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.logo_wrapper img {
+  height: 100%;
+  width: auto;
+  overflow: none !important;
+}
+
+/* line 480, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.nav_list_left {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 0px 10px 0px;
+  margin: 0px;
+}
+
+/* line 488, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.nav_list_right {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+/* line 496, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.header .fa {
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+/* line 500, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.header .fa-cog {
+  font-size: .8em;
+  display: none;
+}
+
+/* line 505, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.header .fa-linkedin, .fa-facebook {
+  vertical-align: 0px;
+}
+
+/* line 510, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.break {
+  border-bottom: solid 10px #266b7c;
+}
+
+/* line 515, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+nav {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 520, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+nav.fixed {
+  position: fixed;
+  z-index: 5;
+  background-image: url("/assets/img/pixel_weave_slate2.png");
+  left: 0;
+  width: 100%;
+}
+
+/* below is test */
+/* CODE BAR NAV END */
+/* line 540, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.textbox {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  border-radius: 3px;
+  margin: auto;
+  max-width: 50%;
+  text-align: center;
+  padding: 12px 12px;
+  background-color: #EFEFE4;
+}
+
+/* line 549, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.textbox p, .textbox h1, .textbox h2, .textbox h3 {
+  padding: 2px 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 555, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.textbox p {
+  color: #222222;
+}
+
+/* line 559, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.main-nav li a {
+  font-size: 17px;
+  margin-left: 22px;
+}
+
+/* line 565, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.logo_wrapper {
+  display: none;
+}
+
+/* line 569, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+nav, footer, .Card-item, .panel, .social-link, .button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #D9D9D9;
+  -webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+  z-index: 4;
+}
+
+/* blur.js sass
+==================================== */
+/* blur.js sass ends
+==================================== */
+/* line 605, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Class-title {
+  margin-bottom: 10px;
+}
+
+/*Component styles*/
+/* line 610, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Photo {
+  border-radius: 300px;
+  max-width: 200px;
+  margin: 10px auto 20px auto;
+  display: block;
+}
+
+/* line 619, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.thumby {
+  max-width: 100%;
+}
+
+/* line 622, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Cards {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 633, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.panel {
+  padding: 1.2em;
+  margin-bottom: 20px;
+  background-color: #EFEFE4;
+}
+
+/* line 639, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Card-item {
+  list-style: none;
+  margin-bottom: 20px;
+  background-color: #EFEFE4;
+}
+
+/* line 646, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Card-title {
+  padding: 0px 10px 7px 10px;
+  display: block;
+  align-items: flex-start;
+}
+
+/* line 652, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Card-info {
+  font-size: 16px;
+  min-height: 100px;
+  padding: 20px;
+}
+
+/* line 658, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Card-info .Card-title {
+  font-weight: 700;
+}
+
+/* line 662, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Card-image {
+  max-width: 93%;
+  margin: auto;
+}
+
+/*Component styles*/
+/* line 670, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.social-link {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* line 676, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.social-link li {
+  margin: 15px;
+}
+
+/*Pseudo classes for first-child and nth-child*/
+/* line 680, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.social-link:first-child a {
+  border-color: #990066;
+  color: #990066;
+}
+
+/* line 685, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.social-link:nth-child(2) a {
+  border-color: #00ACED;
+  color: #00ACED;
+}
+
+/* line 690, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.social-link:nth-child(3) a {
+  border-color: #1B85BD;
+  color: #1B85BD;
+}
+
+/* line 695, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.social-link a {
+  padding: 10px 5px 5px 5px;
+  display: inline-block;
+  margin: 10px;
+  min-width: 130px;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* line 705, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.social-link a:hover {
+  opacity: 0.6;
+}
+
+/* line 717, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.timeline-Widget {
+  max-height: 714px;
+}
+
+/* line 724, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+#twitter-widget-0, #twitter-widget-1 {
+  max-height: 600px;
+}
+
+/*Grid styles*/
+/* line 733, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Grid {
+  display: flex;
+  /*Flexbox container*/
+  flex-wrap: wrap;
+}
+
+/* line 742, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Grid {
+  overflow: hidden;
+}
+
+/* line 745, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Grid-item {
+  box-sizing: border-box;
+  margin: 1%;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* line 753, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Grid-item {
+  width: auto;
+}
+
+/* line 761, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Grid-half {
+  width: 48%;
+}
+
+/* line 765, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Grid-whole {
+  width: 98%;
+}
+
+/* line 769, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Grid-third {
+  width: 31.3%;
+}
+
+/* line 773, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.Grid-quarter {
+  width: 23%;
+}
+
+/* line 777, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+.mobile {
+  display: none;
+}
+
+/* LAPTOP SCREEN
+==================================== */
+@media screen and (min-width: 1185px) and (max-width: 1329px) {
+  /* line 787, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .main-nav li a {
+    font-size: 19px;
+    margin-left: 31px;
+    color: orange;
+  }
+  /* line 794, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  h1 {
+    color: orange;
+  }
+  /* line 801, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .logo_wrapper {
+    display: none;
+  }
+  /* line 805, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .mobile {
+    display: none;
+    width: 95%;
+  }
+}
+
+/* LAPTOP SCREEN END
+==================================== */
+/* TABLET SCREEN
+==================================== */
+@media screen and (min-width: 970px) and (max-width: 1184px) {
+  /* line 821, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .main-nav li a {
+    font-size: 17px;
+    margin-left: 22px;
+    color: yellow;
+  }
+  /* line 827, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  h1 {
+    color: yellow;
+  }
+  /* line 834, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .logo_wrapper {
+    display: none;
+  }
+  /* line 838, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Grid-quarter {
+    width: 98%;
+  }
+  /* line 842, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .mobile {
+    display: none;
+    width: 95%;
+  }
+}
+
+/* TABLET SCREEN END
+==================================== */
+/* PHABLET SCREEN
+==================================== */
+@media screen and (min-width: 755px) and (max-width: 969px) {
+  /* line 858, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .mainLogo a {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-right: 0.35rem;
+  }
+  /* line 865, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .main-nav li a {
+    font-size: 0.75rem;
+    line-height: 1.3rem;
+    margin-left: .3rem;
+  }
+  /* line 872, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Grid-third {
+    width: 98%;
+  }
+  /* line 875, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Grid-quarter {
+    width: 98%;
+  }
+  /* line 879, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  h1 {
+    color: green;
+  }
+  /* line 881, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .main-nav li a {
+    color: green;
+  }
+  /* line 885, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .mobile {
+    display: block;
+  }
+  /* line 889, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .desktop {
+    display: none;
+  }
+}
+
+/* PHABLET SCREEN END
+==================================== */
+/* PHONE LANDSCAPE
+==================================== */
+@media screen and (max-width: 754px) {
+  /* line 906, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  nav {
+    position: fixed;
+    top: 55px;
+    bottom: 0px;
+    left: 0px;
+    width: 260px;
+    max-height: 279px;
+    padding: 20px 0px;
+  }
+  /* line 921, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .main-nav li a {
+    font-size: 17px;
+    margin-left: 22px;
+    color: blue;
+  }
+  /* line 928, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  h1 {
+    color: blue;
+  }
+  /* line 932, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .fixed, #buffer {
+    display: none;
+  }
+  /* line 937, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Navigation li {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 942, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .logo_wrapper {
+    display: none;
+  }
+  /* line 946, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .button {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 55px;
+    border: none;
+    line-height: 1;
+    z-index: 200;
+    cursor: pointer;
+  }
+  /* line 960, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  #buffer {
+    display: inline-block;
+    height: 50px;
+  }
+  /* line 965, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Grid-half {
+    width: 98%;
+  }
+  /* line 969, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Grid-third {
+    width: 98%;
+  }
+  /* line 973, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .myImage:hover {
+    width: 90%;
+    display: none;
+  }
+  /* line 978, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .content {
+    padding: 1.0em 1.4em;
+  }
+  /* line 982, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .panel {
+    padding: 0.9em;
+  }
+  /* line 987, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Navigation li, .nav_list_left, .nav_list_right {
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  /* line 993, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .mobile {
+    display: block;
+  }
+  /* line 997, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .desktop {
+    display: none;
+  }
+}
+
+/* PHONE LANDSCAPE END
+==================================== */
+/* WIDE PHONE PORTRAIT
+==================================== */
+@media screen and (max-width: 450px) {
+  /* line 1014, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .button {
+    display: block;
+  }
+  /* line 1018, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Navigation li, .nav_list_left, .nav_list_right {
+    display: block;
+    padding: 0 0;
+  }
+  /*Component styles*/
+  /* line 1024, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Card-info {
+    min-height: 200px;
+  }
+  /*Grid styles*/
+  /* line 1029, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Grid-item {
+    width: 98%;
+  }
+  /* line 1034, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  h1 {
+    color: indigo;
+  }
+  /* line 1036, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .mobile {
+    display: block;
+  }
+  /* line 1040, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .desktop {
+    display: none;
+  }
+}
+
+/* WIDE PHONE PORTRAIT END
+==================================== */
+/* PHONE PORTRAIT
+==================================== */
+@media screen and (max-width: 350px) {
+  /* line 1054, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  h1 {
+    font-size: 32px;
+  }
+  /* line 1059, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .wrapper, .mainNavClose {
+    width: 350px;
+  }
+  /* line 1063, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .Navigation li, .nav_list_left, .nav_list_right {
+    display: block;
+  }
+  /* line 1067, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .button {
+    display: block;
+  }
+  /* line 1072, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  h1 {
+    color: violet;
+  }
+  /* line 1074, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .mobile {
+    display: block;
+  }
+  /* line 1078, C:/Users/Clara/Dropbox/Apps/site44/claraalder.site44.com/assets/scss/portfolio.scss */
+  .desktop {
+    display: none;
+  }
+}
+
+/* PHONE PORTRAIT END
+==================================== */
+
+/*# sourceMappingURL=../css/portfolio.map */

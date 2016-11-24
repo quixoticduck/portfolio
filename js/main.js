@@ -22,7 +22,14 @@ $('.button').on('click', function(){
     if (isMenuDown) {
         $nav.slideUp(function () {
             $nav.removeAttr("style");
-            $nav.blurjs();
+            $nav.blurjs({
+                draggable: false,
+                overlay: 'rgba(255,255,255,0.3)',
+                radius:2,
+                offset: { 
+                    x: 3, y: 6 
+                }
+            });
             isMenuDown = false;
         });
     } else {
