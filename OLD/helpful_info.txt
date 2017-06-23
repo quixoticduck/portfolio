@@ -1,2 +1,0 @@
-bootstrap+boostrap responsive
-requires jquery
