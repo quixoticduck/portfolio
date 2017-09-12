@@ -194,10 +194,11 @@ h1 {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
-  .menu {
+}
+
+.menu h1 {
       color:$colorHighlight;
   }
-}
 
 h2 {
   font-family: $headingFont;
@@ -998,6 +999,7 @@ and (max-width: $breakpointPhoneMax)
   .mobile {
     display: block;
   }
+
 
   .desktop {
     display: none;
