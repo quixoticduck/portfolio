@@ -1,7 +1,8 @@
 bugs:
-codepen is too wide
 itchio plugin too wide on mobile
 navbar too wide on vertical tablet and bad nav names
+navbar colours  - reset to default
+
 
 to add?
 change sloth to duck?

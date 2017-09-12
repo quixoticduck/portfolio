@@ -224,12 +224,6 @@ h3 {
   text-align: center;
 }
 
-img {max-width: 100%;}
-
-.mobile {
-  display: none;
-  width: 95%;
-}
 
 /*Global styles*/
 .header {
@@ -242,11 +236,11 @@ img {max-width: 100%;}
 .Navigation li {
   padding-right: 15px;
   display: inline-block;
+  font-weight: bold;
 }
 .Navigation li a {
   font-size: 17px;
   color: $colorHighlight;
-  font-weight: bold;
 }
 .Navigation li a:hover {
   text-decoration: underline;
@@ -267,11 +261,6 @@ img {max-width: 100%;}
 .List-noBullets {
   list-style: none;
   padding-left: 0;
-}
-
-.center {
-  text-align: center;
-  margin: auto;
 }
 
 // #nav-id {
@@ -482,7 +471,7 @@ footer {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
-  padding:10px 0px 10px 0px;
+  padding:10px 0px 10px 15px;
   margin: 0px;
 }
 
@@ -522,7 +511,7 @@ nav.fixed {
   position: fixed;
   // width: 100%;
   z-index: 5;
-  // background-image: url("/assets/img/pixel_weave_slate2.png");
+  background-image: url("/assets/img/pixel_weave_slate2.png");
   left: 0;
   width: 100%;
 }
@@ -610,6 +599,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 /*Component styles*/
 .Photo {
   border-radius: 300px;
+  // border-radius: 2px;
   max-width: 200px;
   margin: 10px auto 20px auto;
   display: block;
@@ -755,9 +745,9 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     width: auto;
   }
 
-  .Grid-item:hover {
-    // transform: scale(1.02);
-  }
+.Grid-item:hover {
+  // transform: scale(1.02);
+}
 
   .Grid-half {
     width: 48%;
@@ -775,9 +765,6 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     width: 23%;
   }
 
-.mobile {
-  display: none;
-}
 
 /* LAPTOP SCREEN
 ==================================== */
@@ -789,10 +776,10 @@ and (max-width: $breakpointLaptopMax)
     font-size: 19px;
     margin-left: 31px;
     // margin-right: 0px;
-  // color: orange;
+  color: orange;
   }
 
-  // h1 {color: orange;}
+  h1 {color: orange;}
 
   // .Navigation li, .nav_list_left, .nav_list_right {
   //   display: block;
@@ -802,12 +789,6 @@ and (max-width: $breakpointLaptopMax)
   .logo_wrapper {
     display: none;
   }
-
-  .mobile {
-    display: none;
-    width: 95%;
-  }
-
 } 
 
 /* LAPTOP SCREEN END
@@ -823,9 +804,9 @@ and (max-width: $breakpointTabletMax)
     font-size: 17px;
     margin-left: 22px;
     // margin-right: 13px;
-    // color: yellow;
+    color: yellow;
   }
-  // h1 {color: yellow;}
+  h1 {color: yellow;}
 
   // .Navigation li, .nav_list_left, .nav_list_right {
   //   display: block;
@@ -838,11 +819,6 @@ and (max-width: $breakpointTabletMax)
 
    .Grid-quarter {
   width: 98%;
-  }
-
-    .mobile {
-    display: none;
-    width: 95%;
   }
 
 } 
@@ -870,6 +846,7 @@ and (max-width: $breakpointPhabletMax)
   }
 
 
+
   .Grid-third {
     width: 98%;
   }
@@ -877,20 +854,11 @@ and (max-width: $breakpointPhabletMax)
     width: 98%;
   }
 
-  // h1 {color: green;}
+  h1 {color: green;}
 
   .main-nav li a {
-    // color: green;
+    color: green;
   }
-
-  .mobile {
-    display: block;
-  }
-
-  .desktop {
-    display: none;
-  }
-
 }
 /* PHABLET SCREEN END
 ==================================== */
@@ -923,12 +891,12 @@ and (max-width: $breakpointPhoneMax)
     font-size: 17px;
     margin-left: 22px;
     // margin-right: 13px;
-    // color: blue;
+    color: blue;
   }
 
-  // h1 {
-  //     color: blue;
-  // }
+  h1 {
+      color: blue;
+  }
 
   .fixed, #buffer {
     display: none;
@@ -991,18 +959,17 @@ and (max-width: $breakpointPhoneMax)
     padding-bottom: 0px;
   }
 
-  .mobile {
-    display: block;
-  }
-
-  .desktop {
-    display: none;
-  }
-
 }
+
+
 
 /* PHONE LANDSCAPE END
 ==================================== */
+
+
+
+
+
 
 /* WIDE PHONE PORTRAIT
 ==================================== */
@@ -1032,15 +999,7 @@ and (max-width: $breakpointPhoneMin)
   }
 
 
-  // h1 {color: indigo;}  
-
-  .mobile {
-    display: block;
-  }
-
-  .desktop {
-    display: none;
-  }
+  h1 {color: indigo;}  
 
 }
 
@@ -1070,20 +1029,8 @@ and (max-width: $breakpointTinyMin)
   }
 
 
-  // h1 {color: violet;}
-
-  .mobile {
-    display: block;
-  }
-
-  .desktop {
-    display: none;
-  }
+  h1 {color: violet;}
 
 }
 /* PHONE PORTRAIT END
 ==================================== */
-
-
-
-

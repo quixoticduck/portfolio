@@ -110,6 +110,15 @@ h3 {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+}
+
+.mobile {
+  display: none;
+  width: 95%;
+}
+
 /*Global styles*/
 .Navigation {
   list-style: none;
@@ -124,6 +133,7 @@ h3 {
 .Navigation li a {
   font-size: 17px;
   color: #990066;
+  font-weight: bold;
 }
 
 .Navigation li a:hover {
@@ -146,6 +156,11 @@ h3 {
 .List-noBullets {
   list-style: none;
   padding-left: 0;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
 }
 
 /* Link stylings
@@ -320,7 +335,7 @@ footer a {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
-  padding: 10px 0px 10px 15px;
+  padding: 10px 0px 10px 0px;
   margin: 0px;
 }
 
@@ -357,7 +372,6 @@ nav {
 nav.fixed {
   position: fixed;
   z-index: 5;
-  background-image: url("/assets/img/pixel_weave_slate2.png");
   left: 0;
   width: 100%;
 }
@@ -550,19 +564,23 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   width: 23%;
 }
 
+.mobile {
+  display: none;
+}
+
 /* LAPTOP SCREEN
 ==================================== */
 @media screen and (min-width: 1185px) and (max-width: 1329px) {
   .main-nav li a {
     font-size: 19px;
     margin-left: 31px;
-    color: orange;
-  }
-  h1 {
-    color: orange;
   }
   .logo_wrapper {
     display: none;
+  }
+  .mobile {
+    display: none;
+    width: 95%;
   }
 }
 
@@ -574,16 +592,16 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   .main-nav li a {
     font-size: 17px;
     margin-left: 22px;
-    color: yellow;
-  }
-  h1 {
-    color: yellow;
   }
   .logo_wrapper {
     display: none;
   }
   .Grid-quarter {
     width: 98%;
+  }
+  .mobile {
+    display: none;
+    width: 95%;
   }
 }
 
@@ -610,11 +628,11 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   .Grid-quarter {
     width: 98%;
   }
-  h1 {
-    color: green;
+  .mobile {
+    display: block;
   }
-  .main-nav li a {
-    color: green;
+  .desktop {
+    display: none;
   }
 }
 
@@ -635,10 +653,6 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   .main-nav li a {
     font-size: 17px;
     margin-left: 22px;
-    color: blue;
-  }
-  h1 {
-    color: blue;
   }
   .fixed, #buffer {
     display: none;
@@ -687,6 +701,12 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
 }
 
 /* PHONE LANDSCAPE END
@@ -709,8 +729,11 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   .Grid-item {
     width: 98%;
   }
-  h1 {
-    color: indigo;
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
   }
 }
 
@@ -731,8 +754,11 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   .button {
     display: block;
   }
-  h1 {
-    color: violet;
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
   }
 }
 
