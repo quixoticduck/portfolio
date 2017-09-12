@@ -232,6 +232,10 @@ img {max-width: 100%;}
 }
 
 /*Global styles*/
+.menu {
+  color: $colorHighlight;
+}
+
 .header {
   // background-color: #d51270;
 }
@@ -240,11 +244,8 @@ img {max-width: 100%;}
   padding-left: 0;
 }
 
-.Navigation h1 {
-  color: $colorHighlight;
-}
 .Navigation li {
-  padding-right: 15px;
+  padding-right: 1.6em;
   display: inline-block;
 }
 .Navigation li a {
