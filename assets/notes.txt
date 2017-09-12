@@ -1,0 +1,8 @@
+bugs:
+codepen is too wide
+itchio plugin too wide on mobile
+navbar too wide on vertical tablet and bad nav names
+
+to add?
+change sloth to duck?
+add a skills section?
