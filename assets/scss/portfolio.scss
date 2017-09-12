@@ -239,6 +239,10 @@ img {max-width: 100%;}
   list-style: none;
   padding-left: 0;
 }
+
+.Navigation h1 {
+  color: $colorHighlight;
+}
 .Navigation li {
   padding-right: 15px;
   display: inline-block;

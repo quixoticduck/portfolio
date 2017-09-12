@@ -125,6 +125,10 @@ img {
   padding-left: 0;
 }
 
+.Navigation h1 {
+  color: #990066;
+}
+
 .Navigation li {
   padding-right: 15px;
   display: inline-block;
