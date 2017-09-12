@@ -84,6 +84,10 @@ h1 {
   text-align: center;
 }
 
+h1 .menu {
+  color: #990066;
+}
+
 h2 {
   font-family: "Roboto Slab", sans-serif;
   color: #B5CA15;
@@ -120,17 +124,13 @@ img {
 }
 
 /*Global styles*/
-.menu {
-  color: #990066;
-}
-
 .Navigation {
   list-style: none;
   padding-left: 0;
 }
 
 .Navigation li {
-  padding-right: 15px;
+  padding-right: 1.6em;
   display: inline-block;
 }
 

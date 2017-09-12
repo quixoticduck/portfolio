@@ -194,6 +194,9 @@ h1 {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
+  .menu {
+      color:$colorHighlight;
+  }
 }
 
 h2 {
@@ -232,10 +235,6 @@ img {max-width: 100%;}
 }
 
 /*Global styles*/
-.menu {
-  color: $colorHighlight;
-}
-
 .header {
   // background-color: #d51270;
 }
