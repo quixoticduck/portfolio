@@ -1,8 +1,6 @@
 bugs:
-itchio plugin too narrow on tablet
-navbar too wide on vertical tablet and bad nav names
-
-
+p text is smaller inside boxes than outside
+general inspect element warnings
 
 to add?
 scolls not quite far enough
@@ -14,3 +12,5 @@ left margin too nnarrow
 done:
 navbar colours  - reset to default
 change sloth to duck?
+itchio plugin too narrow on tablet
+navbar too wide on vertical tablet and bad nav names
