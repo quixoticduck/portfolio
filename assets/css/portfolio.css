@@ -46,7 +46,7 @@ body {
   margin: 0px;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.6;
   color: #333333;
 }
 
@@ -59,7 +59,7 @@ ul {
 a {
   color: #de1977;
   text-decoration: none;
-  line-height: 34px;
+  line-height: 2;
 }
 
 a:hover {
@@ -70,7 +70,7 @@ p {
   font: 95% "Open Sans", Helvetica, sans-serif;
   margin: 12px;
   color: #222222;
-  line-height: 1.5em;
+  line-height: 1.5;
   text-align: left;
 }
 
@@ -78,8 +78,8 @@ h1 {
   font-family: "Roboto Slab", sans-serif;
   color: #222222;
   font-weight: normal;
-  font-size: 35px;
-  margin-top: 10px;
+  font-size: 1.95rem;
+  margin-top: 12px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -106,7 +106,7 @@ h3 {
   font-family: "Open Sans", Helvetica, sans-serif;
   color: #0093A3;
   margin: 12px;
-  line-height: 43px;
+  line-height: 2.5;
   display: block;
   font-weight: bold;
   margin-top: 10px;
@@ -130,12 +130,12 @@ img {
 }
 
 .Navigation li {
-  padding-right: 1.6em;
+  padding-right: 2.8rem;
   display: inline-block;
 }
 
 .Navigation li a {
-  font-size: 17px;
+  font-size: 1.1rem;
   color: #990066;
   font-weight: bold;
 }
@@ -302,7 +302,7 @@ footer a {
   display: none;
   color: #f8f8f8;
   vertical-align: top;
-  font-size: 27px;
+  font-size: 1.5rem;
   font-weight: 300;
   text-align: center;
   position: absolute;
@@ -356,7 +356,7 @@ footer a {
 }
 
 .header .fa-cog {
-  font-size: .8em;
+  font-size: .8rem;
   display: none;
 }
 
@@ -405,7 +405,7 @@ nav.fixed {
 }
 
 .main-nav li a {
-  font-size: 17px;
+  font-size: .95rem;
   margin-left: 22px;
 }
 
@@ -467,7 +467,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 }
 
 .Card-info {
-  font-size: 16px;
+  font-size: .9rem;
   min-height: 100px;
   padding: 20px;
 }
@@ -513,7 +513,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   display: inline-block;
   margin: 10px;
   min-width: 130px;
-  font-size: 15px;
+  font-size: .85rem;
   text-align: center;
 }
 
@@ -576,8 +576,11 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 ==================================== */
 @media screen and (min-width: 1185px) and (max-width: 1329px) {
   .main-nav li a {
-    font-size: 19px;
+    font-size: 1.05rem;
     margin-left: 31px;
+  }
+  .Navigation li {
+    padding-right: 2.2rem;
   }
   .logo_wrapper {
     display: none;
@@ -594,8 +597,11 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 ==================================== */
 @media screen and (min-width: 970px) and (max-width: 1184px) {
   .main-nav li a {
-    font-size: 17px;
+    font-size: .95rem;
     margin-left: 22px;
+  }
+  .Navigation li {
+    padding-right: 1.6rem;
   }
   .logo_wrapper {
     display: none;
@@ -615,8 +621,8 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 ==================================== */
 @media screen and (min-width: 755px) and (max-width: 969px) {
   .mainLogo a {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
+    font-size: 1.05rem;
+    line-height: 1.3;
     margin-top: 0px;
     margin-bottom: 15px;
     margin-right: 0.35rem;
@@ -655,7 +661,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     padding: 20px 0px;
   }
   .main-nav li a {
-    font-size: 17px;
+    font-size: .95rem;
     margin-left: 22px;
   }
   .fixed, #buffer {
@@ -747,7 +753,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 ==================================== */
 @media screen and (max-width: 350px) {
   h1 {
-    font-size: 32px;
+    font-size: 1.85rem;
   }
   .wrapper, .mainNavClose {
     width: 350px;

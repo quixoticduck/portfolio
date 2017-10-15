@@ -7,7 +7,8 @@ navbar too wide on vertical tablet and bad nav names
 to add?
 scolls not quite far enough
 add a skills section?
-
+remove right-padding of final li
+left margin too nnarrow
 
 
 done:

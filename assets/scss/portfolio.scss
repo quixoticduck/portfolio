@@ -153,7 +153,7 @@ body {
   margin: 0px;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.6;
   // background-color: #fefefe;
   color: #333333;
   // position: relative;
@@ -166,7 +166,7 @@ ul {
 a {
   color: #de1977;
   text-decoration: none;
-  line-height: 34px;
+  line-height: 2;
 }
 a:hover {
   color: #63186C;
@@ -177,7 +177,7 @@ p {
   // margin-top: 10px;
   // margin-bottom: 5px;
   color: $colorDark;
-  line-height: 1.5em;
+  line-height: 1.5;
   text-align: left;
  // below is mine
   // margin: 7px 0px 10px 0px;
@@ -190,8 +190,9 @@ h1 {
   font-family: $headingFont;
   color:$colorDark;
   font-weight: normal;
-  font-size: 35px;
-  margin-top: 10px;
+  font-size: 1.95rem;
+  // don't add line height to h1 it messes up the nav
+  margin-top: 12px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -220,7 +221,7 @@ h3 {
   font-family: $pFont;
   color:$color2nd;
   margin: 12px;
-  line-height: 43px;
+  line-height: 2.5;
   display: block;
   font-weight: bold;
   margin-top: 10px;
@@ -245,11 +246,13 @@ img {max-width: 100%;}
 }
 
 .Navigation li {
-  padding-right: 1.6em;
+  padding-right: 2.8rem;
   display: inline-block;
+  color: green;
 }
+
 .Navigation li a {
-  font-size: 17px;
+  font-size: 1.1rem;
   color: $colorHighlight;
   font-weight: bold;
 }
@@ -435,7 +438,7 @@ footer {
   color: #f8f8f8;
   // padding: 5px 0px;
   vertical-align: top;
-  font-size: 27px;
+  font-size: 1.5rem;
   // font-family: 'Vollkorn', Georgia, Times, serif;
   font-weight: 300;
   text-align: center;
@@ -504,7 +507,7 @@ footer {
   }
 
  .header .fa-cog {
-    font-size: .8em;
+    font-size: .8rem;
     display: none;
   }
 
@@ -563,7 +566,7 @@ nav.fixed {
 }
 
   .main-nav li a {
-    font-size: 17px;
+    font-size: .95rem;
     margin-left: 22px;
     // margin-right: 13px;
   }
@@ -656,7 +659,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 }
 
 .Card-info {
-  font-size: 16px;
+  font-size: .9rem;
   min-height: 100px;
   padding: 20px;
 }
@@ -704,7 +707,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   display: inline-block;
   margin: 10px;
   min-width: 130px;
-  font-size: 15px;
+  font-size: .85rem;
   text-align: center;
 }
 
@@ -791,7 +794,7 @@ and (min-width: $breakpointLaptopMin)
 and (max-width: $breakpointLaptopMax) 
 {
   .main-nav li a {
-    font-size: 19px;
+    font-size: 1.05rem;
     margin-left: 31px;
     // margin-right: 0px;
   // color: orange;
@@ -803,6 +806,11 @@ and (max-width: $breakpointLaptopMax)
   //   display: block;
   //   padding: 0 0;
   // }
+
+  .Navigation li {
+  padding-right: 2.8rem;
+  color: red;
+}
 
   .logo_wrapper {
     display: none;
@@ -825,7 +833,7 @@ and (min-width: $breakpointTabletMin)
 and (max-width: $breakpointTabletMax) 
 {
   .main-nav li a {
-    font-size: 17px;
+    font-size: .95rem;
     margin-left: 22px;
     // margin-right: 13px;
     // color: yellow;
@@ -836,6 +844,11 @@ and (max-width: $breakpointTabletMax)
   //   display: block;
   //   padding: 0 0;
   // }
+
+  .Navigation li {
+    padding-right: 1.6rem;
+    color: yellow;
+  }
 
   .logo_wrapper {
     display: none;
@@ -862,8 +875,8 @@ and (min-width: $breakpointPhabletMin)
 and (max-width: $breakpointPhabletMax) 
 {
   .mainLogo a {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
+    font-size: 1.05rem;
+    line-height: 1.3;
     margin-top: 0px;
     margin-bottom: 15px;
     margin-right: 0.35rem;
@@ -925,7 +938,7 @@ and (max-width: $breakpointPhoneMax)
   }
 
     .main-nav li a {
-    font-size: 17px;
+    font-size: .95rem;
     margin-left: 22px;
     // margin-right: 13px;
     // color: blue;
@@ -1059,7 +1072,7 @@ and (max-width: $breakpointPhoneMin)
 and (max-width: $breakpointTinyMin) 
 {
   h1 {
-      font-size: 32px;
+      font-size: 1.85rem;
       // color: violet;
   }
 
