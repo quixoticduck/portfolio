@@ -132,6 +132,7 @@ img {
 .Navigation li {
   padding-right: 2.8rem;
   display: inline-block;
+  color: green;
 }
 
 .Navigation li a {
@@ -580,7 +581,8 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     margin-left: 31px;
   }
   .Navigation li {
-    padding-right: 2.2rem;
+    padding-right: 2.8rem;
+    color: red;
   }
   .logo_wrapper {
     display: none;
@@ -602,6 +604,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   }
   .Navigation li {
     padding-right: 1.6rem;
+    color: yellow;
   }
   .logo_wrapper {
     display: none;
