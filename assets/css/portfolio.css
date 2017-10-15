@@ -473,6 +473,10 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   padding: 20px;
 }
 
+.Card-info p {
+  text-align: center;
+}
+
 .Card-info .Card-title {
   font-weight: 700;
 }
