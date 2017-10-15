@@ -8,7 +8,6 @@
 ==================================== */
 /* Layout Element Colors
 ==================================== */
-@import 'https://fonts.googleapis.com/css?family=Open-Sans|Roboto-Slab';
 #990055
 #669900
 #0077AA
@@ -90,7 +89,7 @@ h1 {
 
 h2 {
   font-family: "Roboto Slab", sans-serif;
-  color: #B5CA15;
+  color: #b0c700;
   font-weight: normal;
   line-height: 1.7;
   display: inline;
@@ -105,6 +104,7 @@ h2 {
 h3 {
   font-family: "Open Sans", Helvetica, sans-serif;
   color: #0093A3;
+  font-size: 1.2rem;
   margin: 12px;
   line-height: 2.5;
   display: block;
@@ -146,7 +146,7 @@ img {
 }
 
 .Navigation-current {
-  color: #B5CA15;
+  color: #b0c700;
   font-weight: 700;
 }
 

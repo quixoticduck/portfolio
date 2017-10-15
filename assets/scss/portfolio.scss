@@ -65,7 +65,7 @@ $breakpointTinyMin: 350px;
 ==================================== */
 $colorDark:      #222222;
 $colorLight:     #EFEFE4;
-$colorMain:      #B5CA15;
+$colorMain:      #b0c700;
 $colorMainLight: #FF696D;
 $color2nd:       #0093A3;
 $colorHighlight: #990066;
@@ -133,7 +133,7 @@ $pFont:'Open Sans', Helvetica, sans-serif;
 /*Fonts*/
 
 // @import 'https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto|Roboto-Slab';
-@import 'https://fonts.googleapis.com/css?family=Open-Sans|Roboto-Slab';
+// @import 'https://fonts.googleapis.com/css?family=Open-Sans|Roboto-Slab';
 
 
 //*Element styles*/
@@ -220,6 +220,7 @@ h2 {
 h3 {
   font-family: $pFont;
   color:$color2nd;
+  font-size: 1.2rem;
   margin: 12px;
   line-height: 2.5;
   display: block;
