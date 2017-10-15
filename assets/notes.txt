@@ -1,16 +1,28 @@
 bugs:
-p text is smaller inside boxes than outside
-general inspect element warnings
+mobile nav doesn't close upon click
+
 
 to add?
-scolls not quite far enough
+navbar scolls down a bit further than looks nice
 add a skills section?
-remove right-padding of final li
-left margin too nnarrow
-
 
 done:
 navbar colours  - reset to default
 change sloth to duck?
 itchio plugin too narrow on tablet
+general inspect element warnings
 navbar too wide on vertical tablet and bad nav names
+navbar has no padding on first li
+//turned into a feature (p text is smaller inside boxes than outside)* involved the code below:
+
+*.Card-info {
+  //make the font inside the boxes smaller
+  font-size: .9rem;
+  min-height: 100px;
+  padding: 20px;
+}
+
+.Card-info p {
+  //make the font inside the boxes centered
+  text-align: center;
+  }

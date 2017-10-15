@@ -130,9 +130,8 @@ img {
 }
 
 .Navigation li {
-  padding-right: 2.8rem;
+  padding-right: 1.6rem;
   display: inline-block;
-  color: green;
 }
 
 .Navigation li a {
@@ -340,7 +339,7 @@ footer a {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 1.6em;
   margin: 0px;
 }
 
@@ -717,6 +716,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     display: block;
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-left: 0px;
   }
   .mobile {
     display: block;

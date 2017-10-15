@@ -247,10 +247,14 @@ img {max-width: 100%;}
 }
 
 .Navigation li {
-  padding-right: 2.8rem;
+  padding-right: 1.6rem;
   display: inline-block;
-  color: green;
+  // color: green;
 }
+
+// .Navigation li:first-child {
+//   padding-left: 1.9rem;
+// }
 
 .Navigation li a {
   font-size: 1.1rem;
@@ -487,12 +491,16 @@ footer {
   overflow: none !important;
 }
 
+// Adds 1.6em of padding tot he the nav_list_left left-padding so the first nav li is not against left edge (the li's all have right-padding to seperate them).
+// Was orignally added to the first child of the nav li's but this caused an issue once the nav swapped to the mobile nav layout
+// This padding is removed in the mobile section of code so centered nav lists above each other are aligned
 .nav_list_left {
   list-style: none;
   display: inline-block;
   vertical-align: middle;
-  padding:10px 0px 10px 0px;
+  padding:10px 0px 10px 1.6em;
   margin: 0px;
+
 }
 
 .nav_list_right {
@@ -1010,10 +1018,14 @@ and (max-width: $breakpointPhoneMax)
     // margin: 1.0em;
     }
 
+// Mkes nav into mobile nav
+// Also removes the nav_list_left left-padding which is present in the desktop layout so the first nav li is not against left edge (the li's all have right-padding to seperate them).
+// Was orignally added to the first child of the nav li's but this caused an issue once the nav swapped to the mobile nav layout 
   .Navigation li, .nav_list_left, .nav_list_right {
     display: block;
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-left: 0px;
   }
 
   .mobile {
