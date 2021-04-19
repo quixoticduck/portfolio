@@ -167,6 +167,10 @@ img {
   margin: auto;
 }
 
+li.social-link {
+  margin-bottom: 10px;
+}
+
 /* Link stylings
 ========================================================================= */
 a:link {
