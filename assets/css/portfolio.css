@@ -167,10 +167,6 @@ img {
   margin: auto;
 }
 
-li.social-link {
-  margin-bottom: 10px;
-}
-
 /* Link stylings
 ========================================================================= */
 a:link {
@@ -494,6 +490,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 .social-link li {
@@ -781,7 +778,13 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   .desktop {
     display: none;
   }
+  .social-link {
+    margin-bottom: 10px;
+  }
 }
 
 /* PHONE PORTRAIT END
 ==================================== */
+.social-link {
+  margin-bottom: 10px;
+}

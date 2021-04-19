@@ -292,10 +292,6 @@ img {max-width: 100%;}
 //   color: blue;
 // }
 
-li.social-link {
-  margin-bottom: 10px;
-}
-
 /* Link stylings
 ========================================================================= */
 // a {
@@ -699,6 +695,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+  margin-bottom: 10px;
 }
 
 .social-link li {
@@ -1122,10 +1119,17 @@ and (max-width: $breakpointTinyMin)
     display: none;
   }
 
+.social-link {
+  margin-bottom: 10px;
+}
+
+
 }
 /* PHONE PORTRAIT END
 ==================================== */
 
 
 
-
+.social-link {
+  margin-bottom: 10px;
+}
