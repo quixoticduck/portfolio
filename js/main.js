@@ -38,8 +38,20 @@ $('.button').on('click', function(){
         });
     }
 });
-
 <!-- navbar menu button script ends -->
+
+    
+
+<!-- mobile menu closes on click script begins -->
+// var $navlinks = $('.Navigation li');
+
+// if (isMenuDown) {
+//     $(.Navigation li').on('click', function(){
+
+
+
+<!-- mobile menu closes on click script ends -->
+
 
 <!-- Smooth scroll -->
 
