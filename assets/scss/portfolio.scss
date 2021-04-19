@@ -204,13 +204,15 @@ h1 {
 h2 {
   font-family: $headingFont;
   color:$colorMain;
-  font-weight: normal;
-  // margin-top: 20px;
+  font-weight: 600;
+  font-size: 2rem;
+  
   // margin-bottom: 20px;
-  line-height: 1.7;
+  line-height: 1.8;
   display: inline;
   text-align: center;
   margin: auto;
+  margin-top: 20px;
 }
 
 .textbox h2 {
@@ -695,7 +697,13 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.social-link {
   margin-bottom: 10px;
+/*    &:last-child{
+      ;
+    }*/
 }
 
 .social-link li {
@@ -766,6 +774,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 
 .Grid {
   overflow: hidden;
+  margin-bottom: 16px;
 }
 .Grid-item {
   box-sizing: border-box;
@@ -879,6 +888,7 @@ and (max-width: $breakpointTabletMax)
     width: 95%;
   }
 
+
 } 
 
 /* TABLET SCREEN END
@@ -925,6 +935,7 @@ and (max-width: $breakpointPhabletMax)
     display: none;
   }
 
+
 }
 /* PHABLET SCREEN END
 ==================================== */
@@ -960,9 +971,9 @@ and (max-width: $breakpointPhoneMax)
     // color: blue;
   }
 
-  // h1 {
-  //     color: blue;
-  // }
+ /*  h2 {
+       color: blue;
+   }*/
 
   .fixed, #buffer {
     display: none;
@@ -1071,7 +1082,7 @@ and (max-width: $breakpointPhoneMin)
   }
 
 
-  // h1 {color: indigo;}  
+  // h2 {color: indigo;}  
 
   .mobile {
     display: block;
@@ -1109,7 +1120,7 @@ and (max-width: $breakpointTinyMin)
   }
 
 
-  // h1 {color: violet;}
+  // h2 {color: violet;}
 
   .mobile {
     display: block;
@@ -1123,13 +1134,11 @@ and (max-width: $breakpointTinyMin)
   margin-bottom: 10px;
 }
 
+  footer {
+    margin-top: 30px;
+  }
 
 }
 /* PHONE PORTRAIT END
 ==================================== */
 
-
-
-.social-link {
-  margin-bottom: 10px;
-}

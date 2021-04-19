@@ -90,11 +90,13 @@ h1 {
 h2 {
   font-family: "Roboto Slab", sans-serif;
   color: #b0c700;
-  font-weight: normal;
-  line-height: 1.7;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.8;
   display: inline;
   text-align: center;
   margin: auto;
+  margin-top: 20px;
 }
 
 .textbox h2 {
@@ -490,7 +492,13 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.social-link {
   margin-bottom: 10px;
+  /*    &:last-child{
+      ;
+    }*/
 }
 
 .social-link li {
@@ -543,6 +551,7 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 
 .Grid {
   overflow: hidden;
+  margin-bottom: 16px;
 }
 
 .Grid-item {
@@ -671,6 +680,9 @@ nav, footer, .Card-item, .panel, .social-link, .button {
     font-size: .95rem;
     margin-left: 22px;
   }
+  /*  h2 {
+       color: blue;
+   }*/
   .fixed, #buffer {
     display: none;
   }
@@ -781,10 +793,10 @@ nav, footer, .Card-item, .panel, .social-link, .button {
   .social-link {
     margin-bottom: 10px;
   }
+  footer {
+    margin-top: 30px;
+  }
 }
 
 /* PHONE PORTRAIT END
 ==================================== */
-.social-link {
-  margin-bottom: 10px;
-}
