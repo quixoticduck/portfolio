@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #800;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+/*  flex-direction: column;
+  align-items: center;
+  justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wrapper {
+  margin: 50px;
+  display: grid;
+  align-items: center;
+  color: red;
+}
+
+/*.wrapper .last-door .Door{
+  color: red;
+  flex-direction: column;
+  align-self: center;
+}*/
+
+.titles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subheading {
+    margin: 10px;
+    margin-left: 170px;
+}
+
+.calendar-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.Door {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 10px solid white;
+  font-size: 110px;
+  color: white;
+  text-shadow: 2px 2px #191A25;
+  background-color: #191A25;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.last-door-wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.last-door .Door {
+  width: 500px;
+  background-size: stretch;
+}
+
+button {
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  border: 10px solid white;
+  color: white;
+  background-color: #191A25;
+  
+}
