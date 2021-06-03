@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.2d31d98b.chunk.css",
+    "main.js": "./static/js/main.a68daa98.chunk.js",
+    "main.js.map": "./static/js/main.a68daa98.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.37df1d2b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.37df1d2b.js.map",
+    "static/js/2.1df9118d.chunk.js": "./static/js/2.1df9118d.chunk.js",
+    "static/js/2.1df9118d.chunk.js.map": "./static/js/2.1df9118d.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.0c66271ae65188ad29a665d4eb24ff76.js": "./precache-manifest.0c66271ae65188ad29a665d4eb24ff76.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.2d31d98b.chunk.css.map": "./static/css/main.2d31d98b.chunk.css.map",
+    "static/js/2.1df9118d.chunk.js.LICENSE.txt": "./static/js/2.1df9118d.chunk.js.LICENSE.txt",
+    "static/media/camel.jpg": "./static/media/camel.5a961f05.jpg",
+    "static/media/duck.png": "./static/media/duck.3073f0b3.png",
+    "static/media/jigglypuff.png": "./static/media/jigglypuff.acc0531b.png",
+    "static/media/logo.svg": "./static/media/logo.5d5d9eef.svg",
+    "static/media/pikachu.png": "./static/media/pikachu.fba44f83.png",
+    "static/media/reindeer.png": "./static/media/reindeer.77d0dc44.png",
+    "static/media/sloth.png": "./static/media/sloth.31d9e126.png",
+    "static/media/windmill-logo.jpg": "./static/media/windmill-logo.976efde3.jpg",
+    "static/media/windmill.png": "./static/media/windmill.4f6e3844.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37df1d2b.js",
+    "static/js/2.1df9118d.chunk.js",
+    "static/css/main.2d31d98b.chunk.css",
+    "static/js/main.a68daa98.chunk.js"
+  ]
+}
