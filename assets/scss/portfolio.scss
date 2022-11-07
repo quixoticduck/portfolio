@@ -61,7 +61,7 @@ $breakpointTinyMin: 350px;
 /* /END/ Media Query Breakpoints
 ==================================== */
 
-/* Layout Element Colors
+/* Layout Element Colors 
 ==================================== */
 $colorDark:      #222222;
 $colorLight:     #EFEFE4;
@@ -743,75 +743,77 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 
 // TWITTER CODE
 
-.Feed-height {
-  // max-height: 615px;
-  // max-height: 746px;
-}
+// .Feed-height {
+//   // max-height: 615px;
+//   // max-height: 746px;
+// }
 
-.timeline-Widget {
-  max-height: 714px;
-  // margin-top: 8px;
-  // padding-top: 10px;
-}
-
-
-#twitter-widget-0, #twitter-widget-1 {
-  max-height: 600px;
-  // margin-top: 8px;
-}
+// .timeline-Widget {
+//   // max-height: 714px;
+//   // margin-top: 8px;
+//   // padding-top: 10px;
+// }
 
 
-
-/*Grid styles*/
-
-.Grid {
-    display: flex;  /*Flexbox container*/
-    flex-wrap: wrap;
-      li {
-    // text-shadow: 0px 1px $colorTextShadow;
-  }
-}
+// #twitter-widget-0, #twitter-widget-1 {
+//   // max-height: 600px;
+//   // margin-top: 8px;
+// }
 
 
-.Grid {
-  overflow: hidden;
-  margin-bottom: 16px;
-}
-.Grid-item {
-  box-sizing: border-box;
-  margin: 1%;
-  float: left;
-  width: 100%;
-  margin-bottom: 20px;
-}
 
-  .Grid-item {
-    width: auto;
-  }
+// /*Grid styles*/
 
-  .Grid-item:hover {
-    // transform: scale(1.02);
-  }
+// .Grid {
+//     display: flex;  /*Flexbox container*/
+//     flex-wrap: wrap;
+//       li {
+//     // text-shadow: 0px 1px $colorTextShadow;
+//   }
+// }
 
-  .Grid-half {
-    width: 48%;
-  }
 
-   .Grid-whole {
-    width: 98%;
-  }
+// .Grid {
+//   overflow: hidden;
+//   margin-bottom: 16px;
+// }
+// .Grid-item {
+//   box-sizing: border-box;
+//   margin: 1%;
+//   float: left;
+//   width: 100%;
+//   margin-bottom: 20px;
+// }
 
-  .Grid-third {
-    width: 31.3%;
-  }
+//   .Grid-item {
+//     width: auto;
+//   }
 
-  .Grid-quarter {
-    width: 23%;
-  }
+//   .Grid-item:hover {
+//     // transform: scale(1.02);
+//   }
 
-.mobile {
-  display: none;
-}
+//   .Grid-half {
+//     width: 48%;
+//   }
+
+//    .Grid-whole {
+//     width: 98%;
+//   }
+
+//   .Grid-third {
+//     width: 31.3%;
+//   }
+
+//   .Grid-quarter {
+//     width: 23%;
+//   }
+
+// .mobile {
+//   display: none;
+// }
+
+
 
 /* LAPTOP SCREEN
 ==================================== */
@@ -846,6 +848,11 @@ and (max-width: $breakpointLaptopMax)
     display: none;
     width: 95%;
   }
+
+// .twitter-feed {
+//     width: 48%;
+//     margin: auto;
+//   }
 
 } 
 
@@ -889,8 +896,12 @@ and (max-width: $breakpointTabletMax)
     width: 95%;
   }
 
+// .twitter-feed {
+//     width: 48%;
+//     margin: auto;
+//   }
 
-} 
+}  
 
 /* TABLET SCREEN END
 ==================================== */
@@ -936,7 +947,10 @@ and (max-width: $breakpointPhabletMax)
     display: none;
   }
 
-
+// .twitter-feed {
+//     width: 48%;
+//     margin: auto;
+//   }
 }
 /* PHABLET SCREEN END
 ==================================== */
