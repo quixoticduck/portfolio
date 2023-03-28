@@ -73,12 +73,12 @@ $colorBorder: #D9D9D9;
 $color-4: #333333;
 
 //coding colors
-#990055
-#669900
-#0077AA
-#F4F5F6
-#F0F1F2
-#4D4E53
+// #990055
+// #669900
+// #0077AA
+// #F4F5F6
+// #F0F1F2
+// #4D4E53
 
 /* Lists
 ========================================================================= */
@@ -762,56 +762,56 @@ nav, footer, .Card-item, .panel, .social-link, .button {
 
 
 
-// /*Grid styles*/
+/*Grid styles*/
 
-// .Grid {
-//     display: flex;  /*Flexbox container*/
-//     flex-wrap: wrap;
-//       li {
-//     // text-shadow: 0px 1px $colorTextShadow;
-//   }
-// }
+.Grid {
+    display: flex;  /*Flexbox container*/
+    flex-wrap: wrap;
+      li {
+    // text-shadow: 0px 1px $colorTextShadow;
+  }
+}
 
 
-// .Grid {
-//   overflow: hidden;
-//   margin-bottom: 16px;
-// }
-// .Grid-item {
-//   box-sizing: border-box;
-//   margin: 1%;
-//   float: left;
-//   width: 100%;
-//   margin-bottom: 20px;
-// }
+.Grid {
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.Grid-item {
+  box-sizing: border-box;
+  margin: 1%;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
 
-//   .Grid-item {
-//     width: auto;
-//   }
+  .Grid-item {
+    width: auto;
+  }
 
-//   .Grid-item:hover {
-//     // transform: scale(1.02);
-//   }
+  .Grid-item:hover {
+    // transform: scale(1.02);
+  }
 
-//   .Grid-half {
-//     width: 48%;
-//   }
+  .Grid-half {
+    width: 48%;
+  }
 
-//    .Grid-whole {
-//     width: 98%;
-//   }
+   .Grid-whole {
+    width: 98%;
+  }
 
-//   .Grid-third {
-//     width: 31.3%;
-//   }
+  .Grid-third {
+    width: 31.3%;
+  }
 
-//   .Grid-quarter {
-//     width: 23%;
-//   }
+  .Grid-quarter {
+    width: 23%;
+  }
 
-// .mobile {
-//   display: none;
-// }
+.mobile {
+  display: none;
+}
 
 
 
