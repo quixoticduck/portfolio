@@ -1,12 +1,13 @@
 bugs:
 mobile nav doesn't close upon click
+desktop navbar is not even height
 
 
 to add?
-navbar scolls down a bit further than looks nice
 add a skills section?
 
 done:
+navbar scolls down a bit further than looks nice
 navbar colours  - reset to default
 change sloth to duck?
 itchio plugin too narrow on tablet

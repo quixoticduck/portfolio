@@ -75,7 +75,7 @@ $('#main-nav').toggleClass("open");
 });
 // scroll function
 function scrollToID(id, speed){
-var offSet = 50;
+var offSet = 70;
 var targetOffset = $(id).offset().top - offSet;
 var mainNav = $('#main-nav');
 $('html,body').animate({scrollTop:targetOffset}, speed);
