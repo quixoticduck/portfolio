@@ -1,0 +1,13 @@
+make React version
+Make mobile resopnsive
+Change to MOSK font?
+change background to code
+change images to SVG
+add sounds croak/ribbit and quack
+add cute sound toggle
+add click effect https://codepen.io/finnhvman/pen/jLXKJw
+add simple animation like blinking on a timer and
+arms go up and down once when first placed
+add vibrant/pastel toggle
+change chick to duck?
+add four characters with names and toggles

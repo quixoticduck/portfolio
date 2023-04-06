@@ -1,0 +1,313 @@
+/* make all elements use the border-box model so that adding a padding wont make elements wider */
+* {
+    box-sizing: border-box;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* flex-direction: column; */
+    background-image: url(https://www.claraalder.com/assets/img/HOSTED/plaid.png);
+    /* background-image: url(img/plaid.png); */
+}
+
+/* .break {
+    flex-basis: 100%;
+    height: 0;
+  } */
+
+  h1, #info {
+    font-family: 'Montserrat', sans-serif;
+    color: #58B59D;
+    /* color: #FAEDE1; */
+    font-size: 1.9rem;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
+    margin: auto;
+    text-align: center;
+    padding: 0.27rem;
+}
+
+h1 {
+    padding-top: 0.4rem;
+}
+
+#info {
+    font-family: 'Vollkorn', serif;
+    font-size: 1.8rem;
+    padding-bottom: 0.7rem;
+    /* display: flex
+    flex-direction: column; */
+    margin-top: 3%;
+    margin-bottom: 3.5%;
+    padding: 7px 0 6px 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgba(250,237,225,0.90);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.377);
+    padding: 0.3rem;
+}
+
+.board-header {
+    /* position: relative;
+    top: 0;
+    width: 97%;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    height: 54px; */
+    background-color: rgba(250,237,225,0.80);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.377);
+    /* padding: 0.3rem; */
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+
+    /* To match the margin + gap of the squares but halved on each side it is 0.5rem +0.3rem = 0.8rem. /2 = 0.4rem */
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+
+#gameboard {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 25px;
+    padding-top: 12px;
+    border: 15px solid;
+    border-color:#FAEDE1;
+    box-shadow: 2px 2px 2px rgba(215,114,155, 1), -2px -2px 2px #58B59D, inset -2px 2px 2px #57A32C, inset 2px -2px 2px #F9D840;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+#gameboard::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #FAEDE1;
+    opacity: 0.55;
+    z-index: -1;
+}
+
+/* #gameboard-fade {
+    width: 600px;
+    height: 654px;
+    margin-top: 4.5rem;
+    padding: 25px;
+    position: absolute;
+    background-color: #FAEDE1;
+    opacity: 0.55;
+    z-index: -1;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+} */
+
+#gameboard-container {
+    /* height: 600px;
+    width: 600px; */
+
+  /* fill all the available space with the wrapper */
+  width: 100%;
+ 
+  /* however, limit the maximum size to 500px */
+  max-width: 600px;
+ 
+  /* show the wrapper at the center of the screen */
+  margin: auto;
+ 
+  /* use 2 columns, each have the width of 1 fraction: they have the same width */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+ 
+  /* space the items in the grid 10 px form each other */
+  gap: 0.5rem;
+ 
+  /* leave 30 px of empty space around all the boxes */
+  /* padding: 30px; */
+}
+
+.square {
+    /* width: 72px;
+    height: 72px; */
+    /* width: 180px;
+    height: 180px; */
+    /* width: 27.5%;
+    height: 27.5%;
+    aspect-ratio: 1 / 1; */
+    background-color: rgba(250,237,225,0.60);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.377);
+    transition: all 0.2s cubic-bezier(.25,.8,.25,1);
+    /* border: 20px solid transparent; */
+    /* border-color: yellow; */
+    box-sizing: border-box;
+    /* display: flex;
+    flex: auto; */
+    justify-items: center;
+    align-items: center;
+    margin: .3rem;
+    background-position: center;
+    transition: background 0.4s;
+    aspect-ratio: 1 / 1;
+    display: grid;
+    /* grid-template-rows: 1fr;
+    grid-template-columns: 1fr; */
+    //fixes safari issue of hover breaking image
+    width: 94%;
+}
+
+.square:hover {
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: rgba(250,237,225,1);
+}
+
+.square:active {
+    background-color: #FAEDE1;
+    background-size: 101%;
+    transition: background 0s;
+  }
+
+.clicked {
+    background-color: #FAEDE1;
+}
+
+.froggy, .ducky {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.377);
+    /* height: 150px;
+    width: 150px; */
+    height: 84%;
+    width: 84%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101% 101%;
+    box-sizing: border-box;
+    margin: auto;
+    animation: fadeIn 0.5s; 
+}
+
+img {max-width:100%;}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .preload {
+    //froggy
+    background-image: url(https://www.claraalder.com/assets/img/HOSTED/frog154px.png);
+  }
+
+  // .preload-2 {
+    //   //ducky
+    //     background-image: url(https://www.claraalder.com/assets/img/HOSTED/duckAgreen154px.png);
+    // }
+
+
+.froggy {
+    background-image: url(https://www.claraalder.com/assets/img/HOSTED/frog154px.png);
+    /* background-image: url(img/frog154px.png); */
+}
+
+.ducky {
+    background-image: url(https://www.claraalder.com/assets/img/HOSTED/duckAgreen154px.png);
+    /* background-image: url(img/chick154px.png);
+    background-image: url(img/duckAgreen154px.png); */
+    /* background-image: url(img/duckB154px.png); */
+}
+
+/* #gameboard-container {
+    width: 300px;
+    height: 327px;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    padding-top: 12px;
+    border: 15px solid;
+    border-color:#FAEDE1;
+    box-shadow: 2px 2px 2px rgba(215,114,155, 1), -2px -2px 2px #58B59D, inset -2px 2px 2px #57A32C, inset 2px -2px 2px #F9D840;
+} */
+
+/* phone */
+/* @media (max-width: 540px) {
+.square {
+    width: 72px;
+    height: 72px;
+}
+h1 {
+    color: purple;
+    }    
+} */
+
+/* phone */
+/* @media (30em <= width <= 80em) {
+    .square {
+        width: 108px;
+        height: 108px;
+    }
+
+    #gameboard {
+        width: 400px;
+        height: 435px;
+    }
+
+    #gameboard-fade {
+        width: 400px;
+        height: 432px;
+    } 
+    
+    h1 {
+    color: red;
+    }  
+  }
+
+  /* tablet */
+  /* @media (60em <= width <= 160em) {
+    .square {
+        width: 180px;
+        height: 180px;
+    }
+
+    #gameboard {
+        width: 600px;
+        height: 654px;
+    }
+
+    #gameboard-fade {
+        width: 600px;
+        height: 654px;
+    } 
+
+    h1 {
+        color: blue;
+        }  
+  }  */
+
+
+
+/* .cross {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 15px solid rgb(27, 19, 68);
+} */
