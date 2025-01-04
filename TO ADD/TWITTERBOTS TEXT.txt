@@ -1,0 +1,1 @@
+These Twitterbots were created with Cheap Bots, Done Quick! They're coded in a language called Tracery. Not created for any particular reason other than my own amusement, and to experiment with something new.
